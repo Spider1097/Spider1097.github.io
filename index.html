@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/css/map.css">
+    <link rel="stylesheet" href="/css/dron_data.css">
+    <link rel="stylesheet" href="/css/output_data.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <title>WebSocket Example</title>
+</head>
+
+<body>
+
+    <!-- <div class="container_header">
+        <div class="logo">
+            <img src="/image/logo.png" alt="">
+        </div>
+        <div class="logo_raptors">
+            <img src="/image/raptors_logoHorizontal_color_nobg.png" alt="">
+        </div>
+    </div>
+
+<div class="container_body">
+    <div class="main_body">
+        <div class="data">
+            <div class="drone_actual_data_left">
+                <div class="column_1_1">
+                    <p>DRONE POSITION</p>
+                </div>
+                <div class="column_1_2">
+                    <p>LATITUDE</p>
+                </div>
+                <div class="column_1_3">
+                    <div id="send_LATITUDE_data"></div>
+                </div>
+                <div class="column_1_4">
+                    <p>LONGITUDE</p>
+                </div>
+                <div class="column_1_5">
+                    <div id="send_LONGITUDE_data"></div>
+                </div>
+                <div class="column_1_6">
+                    <p>ALTITUDE</p>
+                </div>
+                <div class="column_1_7">
+                    <div id="send_ALTITUDE_data"></div>
+                </div>
+            </div>
+
+            <div class="drone_actual_data_right">
+                <div class="column_2_1">
+                    <p>DRONE SPEED</p>
+                </div>
+                <div class="column_2_2">
+                    <p>SPEED X</p>
+                </div>
+                <div class="column_2_3">
+                    <div id="send_speed_x_data"></div>
+                </div>
+                <div class="column_2_4">
+                    <p>SPEED Y</p>
+                </div>
+                <div class="column_2_5">
+                    <div id="send_speed_y_data"></div>
+                </div>
+                <div class="column_2_6">
+                    <p>SPEED Z</p>
+                </div>
+                <div class="column_2_7">
+                    <div id="send_speed_z_data"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="actual_data">
+            <div class="row_1">
+                <p>GPS DATA</p>
+            </div>
+            <div class="row_2">
+                <p class="text">LAT:</p>
+                <div id="send_lat_data" class="text"></div>
+                <p class="text">LON:</p>
+                <div id="send_lon_data" class="text"></div>
+                <p class="text">ALT:</p>
+                <div id="send_alt_data" class="text"></div>
+            </div>
+            <div class="row_3">
+                <p>BALL COLOUR</p>
+            </div>
+            <div class="row_4">
+                <div id="color_of_ball" class="text"></div>
+            </div>
+        </div>
+    </div>
+        <div class="view_map">
+            <div id="map"></div>
+        </div>
+    </div>
+
+-->
+
+
+<div class="container_header">
+    <div class="logo">
+        <img src="/image/logo.png" alt="">
+    </div>
+    <div class="logo_raptors">
+        <img src="/image/raptors_logoHorizontal_color_nobg.png" alt="">
+    </div>
+</div>
+
+<div class="container_body">
+    <div class="main_body">
+        <div class="data">
+            <div class="drone_actual_data_left">
+                <div class="column_1_1">
+                    <p>DRONE POSITION</p>
+                </div>
+                <div class="column_1_2">
+                    <p>LATITUDE</p>
+                </div>
+                <div class="column_1_3">
+                    <div id="send_LATITUDE_data">0</div>
+                </div>
+                <div class="column_1_4">
+                    <p>LONGITUDE</p>
+                </div>
+                <div class="column_1_5">
+                    <div id="send_LONGITUDE_data">0</div>
+                </div>
+                <div class="column_1_6">
+                    <p>ALTITUDE</p>
+                </div>
+                <div class="column_1_7">
+                    <div id="send_ALTITUDE_data">0</div>
+                </div>
+            </div>
+
+            <div class="drone_actual_data_right">
+                <div class="column_2_1">
+                    <p>DRONE SPEED</p>
+                </div>
+                <div class="column_2_2">
+                    <p>SPEED X</p>
+                </div>
+                <div class="column_2_3">
+                    <div id="send_speed_x_data">0</div>
+                </div>
+                <div class="column_2_4">
+                    <p>SPEED Y</p>
+                </div>
+                <div class="column_2_5">
+                    <div id="send_speed_y_data">0</div>
+                </div>
+                <div class="column_2_6">
+                    <p>SPEED Z</p>
+                </div>
+                <div class="column_2_7">
+                    <div id="send_speed_z_data">0</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="actual_data">
+            <div class="row_1">
+                <p>GPS DATA</p>
+            </div>
+            <div class="row_2">
+                <p class="text">LAT:</p>
+                <div id="send_lat_data" class="text">0</div>
+                <p class="text">LON:</p>
+                <div id="send_lon_data" class="text">0</div>
+                <p class="text">ALT:</p>
+                <div id="send_alt_data" class="text">0</div>
+            </div>
+            <div class="row_3">
+                <p>BALL COLOUR</p>
+            </div>
+            <div class="row_4">
+                <div id="color_of_ball" class="text">0</div>
+            </div>
+        </div>
+    </div>
+        <div class="view_map">
+            <div id="map"></div>
+        </div>
+</div>
+
+<div class="da">
+    <ul id="dataList">
+        <!-- <li>[<div class="h_text">4</div>:<div class="m_text">5</div>:<div class="s_text">6</div>] 
+            <div class="gps_text">- GPS Data:</div> 
+            <div id="gps_data_lat" class="text">22 </div> 
+            <div id="gps_data_lon" class="text">22 </div>
+            <div id="gps_data_alt" class="text">22 </div>
+            <div class="ball_text">- Ball: </div> 
+            <div id="color_of_ball" class="text">blue</div></li> -->
+
+            <li><div class="h_text"></div><div class="m_text"></div><div class="s_text"></div> 
+                <div class="gps_text"></div> 
+                <div id="gps_data_lat" class="text"></div> 
+                <div id="gps_data_lon" class="text"></div>
+                <div id="gps_data_alt" class="text"></div>
+                <div class="ball_text"></div> 
+                <div id="color_of_ball" class="text"></div></li>
+
+    </ul>
+    <ul id="dataList2">
+        <li><div class="h_text"></div><div class="m_text"></div><div class="s_text"></div> 
+            <div class="gps_text"></div> 
+            <div id="gps_data_lat" class="text"></div> 
+            <div id="gps_data_lon" class="text"></div>
+            <div id="gps_data_alt" class="text"></div>
+            <div class="ball_text"></div> 
+            <div id="color_of_ball" class="text"></div></li>
+    </ul>
+    <ul id="dataList3">
+        <li><div class="h_text"></div><div class="m_text"></div><div class="s_text"></div> 
+            <div class="gps_text"></div> 
+            <div id="gps_data_lat" class="text"></div> 
+            <div id="gps_data_lon" class="text"></div>
+            <div id="gps_data_alt" class="text"></div>
+            <div class="ball_text"></div> 
+            <div id="color_of_ball" class="text"></div></li>
+    </ul>
+</div>
+
+    
+
+    <script src="/js/map.js"></script>
+    <script src="/js/data.js"></script>
+
+</body>
+
+</html>
