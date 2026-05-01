@@ -1,48 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Birthday Card</title>
-    <!-- Google Font-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <div class="card">
-      <div class="outside">
-        <div class="front">
-          <p>Happy Birthday</p>
-          <p>Dear Oksana</p>
-          <div class="img_cont">
-          <img src="/img/dog-puppy-on-garden-royalty-free-image-1586966191.jpg" alt="">
-          </div>
-          <div class="cake">
-            <div class="top-layer"></div>
-            <div class="middle-layer"></div>
-            <div class="bottom-layer"></div>
-            <div class="candle"></div>
-          </div>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduHub - Twoje Centrum Nauki</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Edu<span>Hub</span></h1>
+        <p>Wszystkie wzory, przykłady i tutoriale w jednym miejscu.</p>
+    </header>
+
+    <main class="container">
+        <div class="card" onclick="navigateTo('matematyka')">
+            <div class="icon">📐</div>
+            <h2>Matematyka</h2>
+            <p>Geometria, algebra, funkcje i wzory.</p>
         </div>
-        <div class="back"></div>
-      </div>
-      <div class="inside">
-        <p>Поздравляю тебя с днём рождения! &#127881; &#127881; Пусть этот день будет наполнен радостью, смехом и самыми яркими моментами. &#128540; &#128521;</p>
-        <p>Желаю тебе всегда оставаться такой же жизнерадостной, вдохновляющей и невероятно доброй. &#128131; Пусть каждый день приносит новые возможности для самовыражения и роста. &#128582;</p>
-        <p>Пусть в твоей жизни всегда будут верные друзья, любящие люди и незабываемые приключения. &#128507; &#9970; Желаю тебе исполнения всех желаний и достижения всех целей, которые ты себе поставишь. &#128521; &#128527;</p>
-        <p>Помни, что ты заслуживаешь только лучшего, и никогда не забывай верить в себя &#129305; и свои силы. &#9994; </p>
-        <p>Пусть каждый день будет наполнен счастьем и гармонией. С днём рождения! &#127882; &#127882;</p>
-        <p>С любовью и теплотой,</p>
-        <p>Anton</p>
-        <p>P.S.</p>
-        <p> Спасибо за поздавления Ариша, Даша, Слава!</p>
-        <a href="https://www.youtube.com/watch?v=1puKg2thrtA" target="_blank"><p>click me Ариша</p></a>
-        <a href="https://www.youtube.com/shorts/z5sW8pqDDAQ" target="_blank"><p>click me Даша</p></a>
-        <a href="https://www.youtube.com/watch?v=D5ogZMIocGk" target="_blank"><p>click me Слава</p></a>
-    </div>
-    </div>
-  </body>
+
+        <div class="card" onclick="navigateTo('fizyka')">
+            <div class="icon">⚛️</div>
+            <h2>Fizyka</h2>
+            <p>Dynamika, optyka, prąd elektryczny i symulacje.</p>
+        </div>
+
+        <div class="card" onclick="navigateTo('informatyka')">
+            <div class="icon">💻</div>
+            <h2>Informatyka</h2>
+            <p>Algorytmy, programowanie i bazy danych.</p>
+        </div>
+
+        <div class="card" onclick="navigateTo('biologia')">
+            <div class="icon">🌿</div>
+            <h2>Biologia / Chemia</h2>
+            <p>Budowa komórki, reakcje i wiązania chemiczne.</p>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
 </html>

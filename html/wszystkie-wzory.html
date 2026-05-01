@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wszystkie Wzory - EduHub</title>
+    <link rel="stylesheet" href="/css/wszystkie-wzory.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- MathJax do renderowania wzorów -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+    <nav class="sticky-nav">
+        <a href="matematyka.html" class="back-link">← Powrót</a>
+        <div class="nav-links">
+            <a href="#algebra">Algebra</a>
+            <a href="#geometria">Geometria</a>
+            <a href="#funkcje">Funkcje</a>
+            <a href="#trygonometria">Trygonometria</a>
+        </div>
+        <button onclick="window.print()" class="print-btn">Drukuj Ściągę 🖨️</button>
+    </nav>
+
+    <header class="wzory-header">
+        <h1>Tablice Matematyczne</h1>
+        <p>Najważniejsze wzory w jednym miejscu</p>
+    </header>
+
+    <main class="wzory-container">
+        
+        <!-- SEKCJA: ALGEBRA -->
+<section id="algebra" class="wzory-section">
+    <h2 class="section-title">Algebra - Ułamki Zwykłe</h2>
+    <div class="wzory-grid">
+        
+        <!-- Dodawanie i Odejmowanie -->
+        <div class="formula-card">
+            <h3>Dodawanie i Odejmowanie</h3>
+            <p class="math">$$\frac{a}{c} \pm \frac{b}{c} = \frac{a \pm b}{c}$$</p>
+            <small>Pamiętaj: Dodajemy tylko liczniki, mianownik zostaje bez zmian!</small>
+        </div>
+
+        <!-- Wspólny mianownik -->
+        <div class="formula-card">
+            <h3>Wspólny mianownik</h3>
+            <p class="math">$$\frac{a}{b} + \frac{c}{d} = \frac{a \cdot d + c \cdot b}{b \cdot d}$$</p>
+            <small>Sprowadzamy ułamki tak, aby miały ten sam dół (rozszerzanie).</small>
+        </div>
+
+        <!-- Mnożenie -->
+        <div class="formula-card">
+            <h3>Mnożenie</h3>
+            <p class="math">$$\frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d}$$</p>
+            <small>Mnożymy "licznik przez licznik" i "mianownik przez mianownik".</small>
+        </div>
+
+        <!-- Dzielenie -->
+        <div class="formula-card">
+            <h3>Dzielenie</h3>
+            <p class="math">$$\frac{a}{b} : \frac{c}{d} = \frac{a}{b} \cdot \frac{d}{c}$$</p>
+            <small>Pomnóż pierwszy ułamek przez <b>odwrotność</b> drugiego!</small>
+        </div>
+
+        <!-- Skracanie -->
+        <div class="formula-card">
+            <h3>Skracanie / Rozszerzanie</h3>
+            <p class="math">$$\frac{a}{b} = \frac{a \cdot k}{b \cdot k}$$</p>
+            <small>Możesz pomnożyć lub podzielić górę i dół przez tę samą liczbę.</small>
+        </div>
+
+        <!-- Liczba mieszana -->
+        <div class="formula-card">
+            <h3>Zamiana na ułamek niewłaściwy</h3>
+            <p class="math">$$A\frac{b}{c} = \frac{A \cdot c + b}{c}$$</p>
+            <small>Całość razy mianownik plus licznik.</small>
+        </div>
+
+        <div class="formula-card">
+    <h3>Skracanie (w pionie)</h3>
+    <p class="math">$$\frac{15}{20} = \frac{15 : 5}{20 : 5} = \frac{3}{4}$$</p>
+    <small>Dzielimy licznik i mianownik przez tę samą liczbę.</small>
+</div>
+
+<!-- Skracanie na krzyż -->
+<div class="formula-card highlight-card">
+    <h3>Skracanie "na krzyż"</h3>
+    <p class="math">$$\frac{3}{4} \cdot \frac{8}{9} = \frac{\cancel{3}^1}{\cancel{4}^1} \cdot \frac{\cancel{8}^2}{\cancel{9}^3} = \frac{1 \cdot 2}{1 \cdot 3} = \frac{2}{3}$$</p>
+    <small>Przy <b>mnożeniu</b> możesz skracać górę jednego ułamka z dołem drugiego!</small>
+</div>
+
+    </div>
+</section>
+
+<!-- SEKCJA: LICZBY UJEMNE -->
+<section id="ujemne" class="wzory-section">
+    <h2 class="section-title">Liczby Ujemne - Dodawanie i Odejmowanie</h2>
+    <div class="wzory-grid">
+        
+        <!-- Zasada dwóch znaków -->
+        <div class="formula-card highlight-card">
+            <h3>Gdy znaki się spotykają</h3>
+            <p class="math">$$+ \text{ i } - \to -$$</p>
+            <p class="math">$$- \text{ i } - \to +$$</p>
+            <p class="math">$$+ \text{ i } + \to +$$</p>
+            <small>Przykład: 5 - (-3) = 5 + 3 = 8 <br>Dwa minusy dają plus!</small>
+        </div>
+
+        <!-- Dodawanie (Dług i Gotówka) -->
+        <div class="formula-card">
+            <h3>Dodawanie (Różne znaki)</h3>
+            <p class="math">$$-7 + 10 = 3$$</p>
+            <small>Masz 7 zł długu i 10 zł w kieszeni. <br>Po spłacie zostaje Ci 3 zł.</small>
+        </div>
+
+        <!-- Odejmowanie (Powiększanie długu) -->
+        <div class="formula-card">
+            <h3>Dwa minusy (Suma długu)</h3>
+            <p class="math">$$-5 - 2 = -7$$</p>
+            <small>Masz 5 zł długu i pożyczasz kolejne 2 zł. <br>Razem masz 7 zł długu.</small>
+        </div>
+
+                <!-- Odejmowanie (Powiększanie długu) -->
+        <div class="formula-card">
+            <h3>Dwa minusy (Suma długu)</h3>
+            <p class="math">$$-5 + 3 = -2$$</p>
+            <small>Masz 5 zł długu i pożyczasz kolejne 2 zł. <br>Razem masz 7 zł długu.</small>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section id="procenty" class="wzory-section">
+    <h2 class="section-title">Procenty</h2>
+    <div class="wzory-grid">
+        
+        <!-- Definicja i zamiana -->
+        <div class="formula-card">
+            <h3>Czym jest procent?</h3>
+            <p class="math">$$1\% = \frac{1}{100} = 0,01$$</p>
+            <p class="math">$$p\% = \frac{p}{100}$$</p>
+            <small>Procent to po prostu ułamek o mianowniku 100.</small>
+        </div>
+
+        <!-- Procent z liczby -->
+        <div class="formula-card highlight-card">
+            <h3>Obliczanie procentu z liczby</h3>
+            <p class="math">$$p\% \cdot a$$</p>
+            <small>Przykład: 20% z 80 <br> $$0,2 \cdot 80 = 16$$</small>
+        </div>
+
+        <!-- Jaki to procent -->
+        <div class="formula-card">
+            <h3>Jaki to procent?</h3>
+            <p class="math">$$\frac{\text{część}}{\text{całość}} \cdot 100\%$$</p>
+            <small>Przykład: 5 z 20 <br> $$\frac{5}{20} \cdot 100\% = 25\%$$</small>
+        </div>
+
+        <!-- Podwyżka -->
+        <div class="formula-card">
+            <h3>Podwyżka o p%</h3>
+            <p class="math">$$cena \cdot (100\% + p\%)$$</p>
+            <small>Przykład: podwyżka o 10% <br> $$cena \cdot 1,10$$</small>
+        </div>
+
+        <!-- Obniżka -->
+        <div class="formula-card">
+            <h3>Obniżka o p%</h3>
+            <p class="math">$$cena \cdot (100\% - p\%)$$</p>
+            <small>Przykład: obniżka o 20% <br> $$cena \cdot 0,80$$</small>
+        </div>
+
+        <!-- Liczba z procentu -->
+<div class="formula-card highlight-card">
+    <h3>Metoda "na krzyż" - Jak to działa?</h3>
+    
+    <!-- Krok 1: Ustawienie -->
+    <div class="step">
+        <p><strong>1. Zapisz proporcję:</strong></p>
+        <p class="math">
+            $$ \begin{align*} 
+            20\% & \dashrightarrow 40 \\
+            100\% & \dashrightarrow x 
+            \end{align*} $$
+        </p>
+        <small>Pamiętaj: Procenty pod procentami, liczby pod liczbami!</small>
+    </div>
+
+    <hr>
+
+    <!-- Krok 2: Mnożenie na krzyż -->
+    <div class="step">
+        <p><strong>2. Pomnóż na krzyż i podziel:</strong></p>
+        <p>Łączymy liczby po skosie. Te, które mają "parę", mnożymy przez siebie, a przez liczbę, która stoi naprzeciw x, dzielimy.</p>
+        <p class="math">$$x = \frac{100 \cdot 40}{20}$$</p>
+    </div>
+
+    <hr>
+
+    <!-- Krok 3: Wynik -->
+    <div class="step">
+        <p><strong>3. Oblicz wynik:</strong></p>
+        <p class="math">$$x = \frac{4000}{20} = 200$$</p>
+        <small>Gotowe! Szukana liczba to 200.</small>
+    </div>
+</div>
+
+    </div>
+</section>
+
+<!-- SEKCJA: GEOMETRIA -->
+<section id="geometria" class="wzory-section">
+    <h2 class="section-title">Figury Geometryczne i Pola</h2>
+    
+    <!-- Podsekcja: Kąty -->
+    <div class="wzory-grid">
+        <div class="formula-card highlight-card">
+            <h3>Rodzaje Kątów</h3>
+            <ul class="geo-list">
+                <li>Ostry: \(0^\circ < \alpha < 90^\circ\)</li>
+                <li>Prosty: \(\alpha = 90^\circ\)</li>
+                <li>Rozwarty: \(90^\circ < \alpha < 180^\circ\)</li>
+                <li>Półpełny: \(180^\circ\), Pełny: \(360^\circ\)</li>
+            </ul>
+        </div>
+
+        <div class="formula-card">
+            <h3>Suma kątów</h3>
+            <p>W trójkącie: <strong>180°</strong></p>
+            <p>W czworokącie: <strong>360°</strong></p>
+        </div>
+
+        <div class="formula-card">
+            <h3>Układ współrzędnych</h3>
+            <p>Punkt \(P = (x, y)\)</p>
+            <small>\(x\) - oś pozioma (odcięta)<br>\(y\) - oś pionowa (rzędna)</small>
+        </div>
+    </div>
+
+    <!-- Podsekcja: Pola Figur (Tabela/Grid) -->
+    <h3 class="sub-title">Wzory na Pola i Obwody</h3>
+<div class="wzory-grid">
+    
+    <!-- Kwadrat -->
+    <div class="formula-card geo-card">
+        <div class="shape-box">
+            <svg width="60" height="60" viewBox="0 0 100 100">
+                <rect x="20" y="20" width="60" height="60" stroke="#764ba2" stroke-width="5" fill="rgba(118, 75, 162, 0.1)" />
+                <text x="50" y="95" font-size="14" text-anchor="middle">a</text>
+            </svg>
+        </div>
+        <h3>Kwadrat</h3>
+        <p class="math">$$P = a^2$$</p>
+        <p class="math">$$Obw = 4 \cdot a$$</p>
+    </div>
+
+    <!-- Prostokąt -->
+    <div class="formula-card geo-card">
+        <div class="shape-box">
+            <svg width="80" height="60" viewBox="0 0 120 100">
+                <rect x="10" y="25" width="100" height="50" stroke="#764ba2" stroke-width="4" fill="rgba(118, 75, 162, 0.1)" />
+                <text x="60" y="90" font-size="14" text-anchor="middle">a</text>
+                <text x="115" y="55" font-size="14">b</text>
+            </svg>
+        </div>
+        <h3>Prostokąt</h3>
+        <p class="math">$$P = a \cdot b$$</p>
+        <p class="math">$$Obw = 2a + 2b$$</p>
+    </div>
+
+    <!-- Trójkąt -->
+    <div class="formula-card geo-card">
+        <div class="shape-box">
+            <svg width="80" height="60" viewBox="0 0 120 100">
+                <polygon points="60,10 110,80 10,80" stroke="#764ba2" stroke-width="4" fill="rgba(118, 75, 162, 0.1)" />
+                <text x="60" y="95" font-size="14" text-anchor="middle">a</text>
+                <text x="25" y="45" font-size="14">b</text>
+                <text x="95" y="45" font-size="14">c</text>
+            </svg>
+        </div>
+        <h3>Trójkąt</h3>
+        <p class="math">$$P = \frac{1}{2} a \cdot h$$</p>
+        <p class="math">$$Obw = a + b + c$$</p>
+    </div>
+
+    <!-- Równoległobok -->
+    <div class="formula-card geo-card">
+        <div class="shape-box">
+            <svg width="80" height="60" viewBox="0 0 120 100">
+                <polygon points="30,20 110,20 90,80 10,80" stroke="#764ba2" stroke-width="4" fill="rgba(118, 75, 162, 0.1)" />
+                <text x="50" y="95" font-size="14" text-anchor="middle">a</text>
+                <text x="105" y="55" font-size="14">b</text>
+            </svg>
+        </div>
+        <h3>Równoległobok</h3>
+        <p class="math">$$P = a \cdot h$$</p>
+        <p class="math">$$Obw = 2a + 2b$$</p>
+    </div>
+
+    <!-- Trapez -->
+    <div class="formula-card geo-card">
+        <div class="shape-box">
+            <svg width="80" height="60" viewBox="0 0 120 100">
+                <polygon points="35,20 85,20 110,80 10,80" stroke="#764ba2" stroke-width="4" fill="rgba(118, 75, 162, 0.1)" />
+                <text x="60" y="15" font-size="14" text-anchor="middle">b</text>
+                <text x="60" y="95" font-size="14" text-anchor="middle">a</text>
+                <text x="5" y="55" font-size="14">c</text>
+                <text x="105" y="55" font-size="14">d</text>
+            </svg>
+        </div>
+        <h3>Trapez</h3>
+        <p class="math">$$P = \frac{(a+b) \cdot h}{2}$$</p>
+        <p class="math">$$Obw = a + b + c + d$$</p>
+    </div>
+
+        <!-- Trójkąt Równoboczny -->
+    <div class="formula-card highlight-card">
+        <div class="shape-box">
+            <svg width="100" height="80" viewBox="0 0 100 80">
+                <polygon points="50,10 15,70 85,70" stroke="#764ba2" stroke-width="2" fill="rgba(118, 75, 162, 0.1)" />
+                <line x1="50" y1="10" x2="50" y2="70" stroke="#e74c3c" stroke-dasharray="3" />
+                <text x="45" y="78" font-size="12">a</text>
+                <text x="52" y="45" font-size="10" fill="#e74c3c">h</text>
+            </svg>
+        </div>
+        <h3>Trójkąt Równoboczny</h3>
+        <p class="math">$$P = \frac{a^2\sqrt{3}}{4}$$</p>
+        <p class="math">$$h = \frac{a\sqrt{3}}{2}$$</p>
+    </div>
+
+    <!-- Jednostki Pola -->
+    <div class="formula-card highlight-card">
+        <h3>Jednostki Pola</h3>
+        <p>\(1 \text{ cm}^2 = 100 \text{ mm}^2\)</p>
+        <p>\(1 \text{ dm}^2 = 100 \text{ cm}^2\)</p>
+        <p>\(1 \text{ m}^2 = 100 \text{ dm}^2\)</p>
+        <p><strong>Ar:</strong> \(1 \text{ a} = 100 \text{ m}^2\)</p>
+        <p><strong>Hektar:</strong> \(1 \text{ ha} = 100 \text{ a}\)</p>
+        <hr>
+        <small>Przy obwodzie używamy jednostek zwykłych (mm, cm, m)!</small>
+    </div>
+
+</div>
+</section>
+
+<!-- SEKCJA: WYRAŻENIA ALGEBRAICZNE -->
+<section id="algebraiczne" class="wzory-section">
+    <h2 class="section-title">Wyrażenia Algebraiczne</h2>
+    <div class="wzory-grid">
+        
+        <!-- Jednomiany -->
+        <div class="formula-card">
+            <h3>Jednomiany</h3>
+            <p class="math">$$2 \cdot a \cdot x^2 = 2ax^2$$</p>
+            <small>Liczby i litery połączone tylko <b>mnożeniem</b>. <br>Liczba na początku to współczynnik.</small>
+        </div>
+
+        <!-- Wyrazy podobne -->
+        <div class="formula-card highlight-card">
+            <h3>Wyrazy podobne (Redukcja)</h3>
+            <p class="math">$$\underline{3x} + 5y \underline{- x} = 2x + 5y$$</p>
+            <small>Możesz dodawać/odejmować tylko te wyrazy, które mają <b>identyczne litery</b>.</small>
+        </div>
+
+        <!-- Mnożenie jednomianu przez sumę -->
+        <div class="formula-card">
+            <h3>Mnożenie przez nawias</h3>
+            <p class="math">$$a(b + c) = ab + ac$$</p>
+            <small>Mnożysz wyraz przed nawiasem przez <b>każdy</b> element w środku.</small>
+        </div>
+
+        <!-- Mnożenie sum algebraicznych -->
+        <div class="formula-card highlight-card">
+            <h3>Nawias przez nawias</h3>
+            <p class="math">$$(a+b)(c+d) = ac + ad + bc + bd$$</p>
+            <small>Zasada: Każdy z każdym! Pierwszy z pierwszego nawiasu razy oba z drugiego, potem drugi z pierwszego...</small>
+        </div>
+
+        <!-- Opuszczanie nawiasów -->
+        <div class="formula-card">
+            <h3>Minus przed nawiasem</h3>
+            <p class="math">$$-(3a - 5b) = -3a + 5b$$</p>
+            <small>Minus przed nawiasem <b>zmienia wszystkie znaki</b> wewnątrz na przeciwne!</small>
+        </div>
+
+        <!-- Wartość liczbowa -->
+        <div class="formula-card">
+            <h3>Wartość liczbowa</h3>
+            <small>Podstawiasz konkretną liczbę pod literę.</small>
+            <p class="math">Dla $$x = 2$$ wyrażenie $$3x + 1$$ to: <br> $$3 \cdot 2 + 1 = 7$$</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- SEKCJA: RÓWNANIA -->
+<section id="rownania" class="wzory-section">
+    <h2 class="section-title">Równania</h2>
+    <div class="wzory-grid">
+        
+        <!-- Czym jest równanie -->
+        <div class="formula-card">
+            <h3>Liczba spełniająca równanie</h3>
+            <p>To taka liczba, która po podstawieniu pod x daje po obu stronach to samo (L=P).</p>
+            <small>Przykład: $$x + 2 = 5$$ <br> Liczba <b>3</b> spełnia równanie, bo $$3+2=5$$.</small>
+        </div>
+
+        <!-- Rozwiązywanie krok po kroku -->
+        <div class="formula-card highlight-card">
+            <h3>Rozwiązywanie (Krok po kroku)</h3>
+            <p class="math">$$3x - 4 = 11 \quad | +4$$</p>
+            <p class="math">$$3x = 15 \quad | :3$$</p>
+            <p class="math">$$x = 5$$</p>
+            <small>Pamiętaj: Przenosząc na drugą stronę, <b>zmieniasz znak</b> na przeciwny!</small>
+        </div>
+
+        <!-- Przekształcanie wzorów -->
+        <div class="formula-card">
+            <h3>Przekształcanie wzorów</h3>
+            <p>Wyznaczamy jedną literę, traktując inne jak liczby.</p>
+            <p class="math">$$P = a \cdot h \quad | :h$$</p>
+            <p class="math">$$a = \frac{P}{h}$$</p>
+        </div>
+
+        <!-- Zadania tekstowe -->
+        <div class="formula-card">
+            <h3>Zadania tekstowe (Schemat)</h3>
+            <ol style="text-align: left; font-size: 0.85rem; padding-left: 15px;">
+                <li>Oznacz niewiadomą jako x.</li>
+                <li>Ułóż równanie na podstawie tekstu.</li>
+                <li>Rozwiąż równanie.</li>
+                <li>Sprawdź, czy wynik ma sens.</li>
+            </ol>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- SEKCJA: POTĘGI I PIERWIASTKI -->
+<section id="potegi" class="wzory-section">
+    <h2 class="section-title">Potęgi i Pierwiastki</h2>
+    <div class="wzory-grid">
+        
+        <!-- Definicja potęgi -->
+        <div class="formula-card">
+            <h3>Co to jest potęga?</h3>
+            <p class="math">$$a^n = \underbrace{a \cdot a \cdot \dots \cdot a}_{n \text{ razy}}$$</p>
+            <small>Pamiętaj: $$a^0 = 1$$ oraz $$a^1 = a$$</small>
+        </div>
+
+        <!-- Mnożenie i dzielenie -->
+        <div class="formula-card highlight-card">
+            <h3>Działania na potęgach</h3>
+            <p class="math">$$a^m \cdot a^n = a^{m+n}$$</p>
+            <p class="math">$$a^m : a^n = a^{m-n}$$</p>
+            <small>Gdy podstawy są takie same, wykładniki dodajemy lub odejmujemy.</small>
+        </div>
+
+        <!-- Potęgowanie potęgi -->
+        <div class="formula-card">
+            <h3>Potęga potęgi</h3>
+            <p class="math">$$(a^m)^n = a^{m \cdot n}$$</p>
+            <small>W tym przypadku wykładniki przez siebie <b>mnożymy</b>.</small>
+        </div>
+
+        <!-- Notacja wykładnicza -->
+        <div class="formula-card">
+            <h3>Notacja wykładnicza</h3>
+            <p class="math">$$a \cdot 10^n$$</p>
+            <small>Gdzie $$1 \le a < 10$$. Służy do zapisu bardzo dużych lub małych liczb.</small>
+        </div>
+
+        <!-- Pierwiastki -->
+        <div class="formula-card highlight-card">
+            <h3>Pierwiastki</h3>
+            <p class="math">$$\sqrt{a} = b \iff b^2 = a$$</p>
+            <p class="math">$$\sqrt[3]{a} = b \iff b^3 = a$$</p>
+            <small>Przykład: $\sqrt{25}=5$, bo $5^2=25$</small>
+        </div>
+
+        <!-- Działania na pierwiastkach -->
+        <div class="formula-card">
+            <h3>Mnożenie i dzielenie pierwiastków</h3>
+            <p class="math">$$\sqrt{a} \cdot \sqrt{b} = \sqrt{a \cdot b}$$</p>
+            <p class="math">$$\frac{\sqrt{a}}{\sqrt{b}} = \sqrt{\frac{a}{b}}$$</p>
+        </div>
+
+        <div class="formula-card highlight-card">
+    <h3>Potęga iloczynu i ilorazu</h3>
+    <p class="math">$$(a \cdot b)^n = a^n \cdot b^n$$</p>
+    <p class="math">$$\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n} \quad \text{dla } b \neq 0$$</p>
+    <small>Potęga "wchodzi" na każdy element w nawiasie!</small>
+</div>
+
+<!-- Pierwiastki iloczynu i ilorazu (stopień 2 i 3) -->
+<div class="formula-card highlight-card">
+    <h3>Działania na pierwiastkach</h3>
+    <!-- Stopień 2 -->
+    <p class="math">$$\sqrt{a \cdot b} = \sqrt{a} \cdot \sqrt{b}$$</p>
+    <p class="math">$$\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}} \quad \text{dla } b \neq 0$$</p>
+    <hr>
+    <!-- Stopień 3 -->
+    <p class="math">$$\sqrt[3]{a \cdot b} = \sqrt[3]{a} \cdot \sqrt[3]{b}$$</p>
+    <p class="math">$$\sqrt[3]{\frac{a}{b}} = \frac{\sqrt[3]{a}}{\sqrt[3]{b}} \quad \text{dla } b \neq 0$$</p>
+    <small>Możesz rozdzielać pierwiastek na dwa mniejsze (i odwrotnie).</small>
+</div>
+
+    </div>
+</section>
+
+
+<!-- SEKCJA: TWIERDZENIE PITAGORASA -->
+<section id="pitagoras" class="wzory-section">
+    <h2 class="section-title">Twierdzenie Pitagorasa</h2>
+    <div class="wzory-grid">
+        <div class="formula-card geo-card">
+            <div class="shape-box">
+                <svg width="100" height="80" viewBox="0 0 100 80">
+                    <polygon points="20,10 20,70 80,70" stroke="#764ba2" stroke-width="3" fill="rgba(118, 75, 162, 0.1)" />
+                    <rect x="20" y="60" width="10" height="10" fill="none" stroke="#764ba2" stroke-width="1" />
+                    <text x="5" y="45" font-size="12">a</text>
+                    <text x="45" y="78" font-size="12">b</text>
+                    <text x="55" y="35" font-size="12">c</text>
+                </svg>
+            </div>
+            <h3>Wzór główny</h3>
+            <p class="math">$$a^2 + b^2 = c^2$$</p>
+            <small>Stosujemy <b>tylko</b> w trójkątach prostokątnych!</small>
+        </div>
+    </div>
+</section>
+
+<!-- SEKCJA: BRYŁY (GRANIASTOSŁUPY I OSTROSŁUPY) -->
+<section id="bryly" class="wzory-section">
+<h3 class="sub-title">Bryły Przestrzenne</h3>
+<div class="wzory-grid">
+    
+    <!-- Graniastosłup czworokątny (Prostopadłościan) -->
+    <div class="formula-card geo-card">
+        <div class="shape-box">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <!-- Krawędzie tylne (ukryte) -->
+                <path d="M20 40 L40 30 M40 30 L80 30 M40 30 L40 70" stroke="#ccc" stroke-dasharray="4" fill="none" />
+                <!-- Ściany przednie -->
+                <path d="M20 40 L60 40 L60 80 L20 80 Z" stroke="#764ba2" stroke-width="2" fill="rgba(118, 75, 162, 0.1)" />
+                <path d="M60 40 L80 30 L80 70 L60 80" stroke="#764ba2" stroke-width="2" fill="rgba(118, 75, 162, 0.05)" />
+                <path d="M20 40 L40 30 L80 30 L60 40" stroke="#764ba2" stroke-width="2" fill="none" />
+                <!-- Podpisy -->
+                <text x="75" y="55" font-size="10">H</text>
+                <text x="40" y="88" font-size="10">Pp</text>
+            </svg>
+        </div>
+        <h3>Graniastosłup</h3>
+        <p class="math">$$V = P_p \cdot H$$</p>
+        <p class="math">$$P_c = 2P_p + P_b$$</p>
+    </div>
+
+    <!-- Ostrosłup czworokątny -->
+    <div class="formula-card geo-card highlight-card">
+        <div class="shape-box">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <!-- Podstawa (widok w perspektywie) -->
+                <path d="M20 70 L50 85 L85 70 L55 55 Z" stroke="#764ba2" stroke-width="2" fill="rgba(118, 75, 162, 0.1)" />
+                <!-- Wysokość H (środek) -->
+                <line x1="52" y1="70" x2="52" y2="20" stroke="#e74c3c" stroke-dasharray="3" />
+                <!-- Krawędzie boczne -->
+                <line x1="52" y1="20" x2="20" y2="70" stroke="#764ba2" stroke-width="2" />
+                <line x1="52" y1="20" x2="50" y2="85" stroke="#764ba2" stroke-width="2" />
+                <line x1="52" y1="20" x2="85" y2="70" stroke="#764ba2" stroke-width="2" />
+                <path d="M52 20 L55 55" stroke="#ccc" stroke-dasharray="4" /> <!-- Ukryta krawędź -->
+                <!-- Podpisy -->
+                <text x="55" y="45" font-size="10" fill="#e74c3c">H</text>
+            </svg>
+        </div>
+        <h3>Ostrosłup</h3>
+        <p class="math">$$V = \frac{1}{3} P_p \cdot H$$</p>
+        <p class="math">$$P_c = P_p + P_b$$</p>
+    </div>
+
+    <div class="formula-card">
+    <div class="shape-box">
+        <svg width="120" height="100" viewBox="0 0 120 100">
+            <!-- Krawędzie tylne -->
+            <path d="M10 40 L30 25 M30 25 L110 25 M30 25 L30 75" stroke="#ccc" stroke-dasharray="4" fill="none" />
+            <!-- Ściany przednie -->
+            <path d="M10 40 L90 40 L90 90 L10 90 Z" stroke="#764ba2" stroke-width="2" fill="rgba(118, 75, 162, 0.1)" />
+            <path d="M90 40 L110 25 L110 75 L90 90" stroke="#764ba2" stroke-width="2" fill="rgba(118, 75, 162, 0.05)" />
+            <path d="M10 40 L30 25 L110 25 L90 40" stroke="#764ba2" stroke-width="2" fill="none" />
+            <!-- Podpisy krawędzi -->
+            <text x="50" y="98" font-size="12">a</text>
+            <text x="100" y="88" font-size="12">b</text>
+            <text x="112" y="55" font-size="12">c</text>
+        </svg>
+    </div>
+    <h3>Prostopadłościan</h3>
+    <p class="math">$$V = a \cdot b \cdot c$$</p>
+    <p class="math">$$P_c = 2(ab + ac + bc)$$</p>
+    <small>Wszystkie ściany są prostokątami.</small>
+</div>
+
+</div>
+</section>
+
+<!-- SEKCJA: TWIERDZENIE PITAGORASA -->
+<section id="pitagoras" class="wzory-section">
+    <h2 class="section-title">Twierdzenie Pitagorasa</h2>
+    <div class="wzory-grid">
+        <div class="formula-card geo-card">
+            <div class="shape-box">
+                <svg width="100" height="80" viewBox="0 0 100 80">
+                    <polygon points="20,10 20,70 80,70" stroke="#764ba2" stroke-width="3" fill="rgba(118, 75, 162, 0.1)" />
+                    <rect x="20" y="60" width="10" height="10" fill="none" stroke="#764ba2" stroke-width="1" />
+                    <text x="5" y="45" font-size="12">a</text>
+                    <text x="45" y="78" font-size="12">b</text>
+                    <text x="55" y="35" font-size="12">c</text>
+                </svg>
+            </div>
+            <h3>Wzór główny</h3>
+            <p class="math">$$a^2 + b^2 = c^2$$</p>
+            <small>Stosujemy <b>tylko</b> w trójkątach prostokątnych!</small>
+        </div>
+
+<div class="formula-card geo-card">
+        <div class="shape-box">
+            <svg width="100" height="80" viewBox="0 0 100 80">
+                <polygon points="20,10 20,70 80,70" stroke="#764ba2" stroke-width="2" fill="rgba(118, 75, 162, 0.1)" />
+                <text x="5" y="45" font-size="12">a</text>
+                <text x="45" y="78" font-size="12">a</text>
+                <text x="55" y="35" font-size="12">a√2</text>
+                <text x="22" y="25" font-size="8">45°</text>
+                <text x="55" y="68" font-size="8">45°</text>
+            </svg>
+        </div>
+        <h3>Ekierka I (45°, 45°)</h3>
+        <p>Boki: $$a, a, a\sqrt{2}$$</p>
+        <small>To połowa kwadratu!</small>
+    </div>
+
+    <!-- Trójkąt 30, 60, 90 -->
+    <div class="formula-card geo-card">
+        <div class="shape-box">
+            <svg width="100" height="80" viewBox="0 0 100 80">
+                <polygon points="30,10 30,70 65,70" stroke="#764ba2" stroke-width="2" fill="rgba(118, 75, 162, 0.1)" />
+                <text x="5" y="45" font-size="12">a√3</text>
+                <text x="45" y="78" font-size="12">a</text>
+                <text x="55" y="35" font-size="12">2a</text>
+                <text x="32" y="25" font-size="8">30°</text>
+                <text x="45" y="68" font-size="8">60°</text>
+            </svg>
+        </div>
+        <h3>Ekierka II (30°, 60°)</h3>
+        <p>Boki: $$a, a\sqrt{3}, 2a$$</p>
+        <small>To połowa trójkąta równobocznego!</small>
+    </div>
+
+
+
+    </div>
+
+
+    
+</section>
+
+    </main>
+
+    <footer>
+        <p>EduHub - Szybka powtórka przed lekcją</p>
+    </footer>
+
+</body>
+</html>

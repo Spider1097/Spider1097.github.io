@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; /* Płynne przewijanie do sekcji */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fdfdfd;
+    color: #2d3436;
+}
+
+/* Pasek nawigacji */
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #764ba2;
+    margin: 0 15px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.print-btn {
+    background: #764ba2;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Header */
+.wzory-header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9fa;
+}
+
+/* Kontener na sekcje */
+.wzory-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wzory-section {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    border-left: 5px solid #764ba2;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    color: #2d3436;
+}
+
+/* Siatka wzorów */
+.wzory-grid {
+    display: grid;
+    /* Wymuszamy 3 kolumny na dużych ekranach */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 25px;
+}
+
+/* Na tabletach robimy 2 kolumny, na telefonach 1 */
+@media (max-width: 900px) {
+    .wzory-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+    .wzory-grid { grid-template-columns: 1fr; }
+}
+
+/* Karta pojedynczego wzoru */
+.formula-card {
+    background: white;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.formula-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transform: translateY(-3px);
+}
+
+.formula-card h3 {
+    font-size: 1rem;
+    color: #636e72;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.math {
+    font-size: 1.3rem;
+    color: #000;
+}
+
+/* Stopka */
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #2d3436;
+    color: white;
+}
+
+/* Ukrywanie nawigacji podczas drukowania */
+@media print {
+    .sticky-nav, footer {
+        display: none;
+    }
+    .formula-card {
+        border: 1px solid #000;
+        page-break-inside: avoid;
+    }
+}
+
+
+.sub-title {
+    margin: 30px 0 20px 0;
+    color: #764ba2;
+    text-align: center;
+}
+
+.geo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Kształty pomocnicze */
+.shape {
+    margin-bottom: 15px;
+    border: 2px solid #764ba2;
+    background: #f0f4ff;
+}
+
+.square { width: 40px; height: 40px; }
+.rect { width: 60px; height: 35px; }
+.triangle {
+    width: 0; height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 40px solid #764ba2;
+    background: none;
+}
+.trapezoid {
+    width: 80px;
+    height: 0;
+    border-bottom: 40px solid rgba(118, 75, 162, 0.1);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom-color: #764ba2; /* Linia */
+    background: transparent;
+}
+
+.geo-list {
+    list-style: none;
+    text-align: left;
+    font-size: 0.9rem;
+}
