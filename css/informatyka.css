@@ -1,0 +1,93 @@
+:root {
+    --bg: #0f172a;
+    --card-bg: #1e293b;
+    --accent: #38bdf8;
+    --python-green: #4ade80;
+    --python-yellow: #fbbf24;
+    --text: #f8fafc;
+    --code-bg: #020617;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1 { font-size: 2.2rem; margin-bottom: 10px; }
+
+.dashboard {
+    display: grid;
+    /* Zmieniamy minmax z 380px na 500px lub więcej, aby wymusić szerokość */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
+    gap: 30px;
+    max-width: 1600px; /* Zwiększamy max-width całej strony */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    padding: 30px; /* Większy padding wewnątrz karty */
+    border: 1px solid #334155;
+    transition: transform 0.3s ease;
+    width: 100%; /* Karta zawsze zajmuje całą dostępną szerokość kolumny */
+    box-sizing: border-box;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+}
+
+h2 { color: var(--python-yellow); font-size: 1.3rem; margin-top: 0; }
+
+pre {
+    background: var(--code-bg);
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    border-left: 4px solid var(--python-green);
+    font-size: 1.1rem; /* Większy kod */
+}
+
+code { font-family: 'Fira Code', monospace; font-size: 0.9rem; }
+
+.keyword { color: #f472b6; }
+.string { color: var(--python-green); }
+.func { color: var(--accent); }
+
+.explanation {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.explanation p { margin: 0; color: var(--accent); font-weight: 600; }
+.explanation ul { margin: 10px 0 0 0; padding-left: 20px; color: #cbd5e1; font-size: 0.85rem; }
+
+
+/* Styl dla linii oddzielającej */
+.section-divider {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--accent), transparent);
+    margin: 60px auto;
+    width: 80%;
+    opacity: 0.5;
+}
+
+/* Dodatkowe wyrównanie dla nagłówków sekcji */
+header h1 {
+    margin-top: 20px;
+}
