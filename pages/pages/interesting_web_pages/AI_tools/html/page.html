@@ -2,10 +2,14 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>EduHub Owl - Korepetycje</title>
+    <title>EduHub Owl</title>
+
     <link rel="stylesheet" href="/pages/Global_settings/css/body.css">
     <link rel="stylesheet" href="/pages/Global_settings/css/navbar.css">
-    <link rel="stylesheet" href="/pages/index/css/style.css">
+    <link rel="stylesheet" href="/pages/Global_settings/css/cards_menu.css">
+    <link rel="stylesheet" href="/pages/Global_settings/css/web_tools.css">
+    <link rel="stylesheet" href="/pages/pages/interesting_web_pages//AI_tools/css/style.css">
+
 </head>
 <body>
 
@@ -30,30 +34,38 @@
         </div>
     </div>
 
-<div class="divider-gold"></div>
-
-<section class="main-banner">
-    <div class="banner-content">
-        <h1 id="heroTitle">Twoja wiedza, nasz sukces</h1>
-        <p id="heroText">Odkryj profesjonalne wsparcie w nauce na każdym etapie edukacji.</p>
-        <div class="banner-buttons">
-            <button id="btn1" class="btn-primary">Sprawdź ofertę</button>
-            <button id="btn2" class="btn-secondary">Kontakt</button>
-        </div>
+    <div class="back-container">
+<button class="back-btn" id="backButton" onclick="goToUrl('/pages/menu/menu_AI_tools/html/page.html')">
+    &larr; <span id="backButtonText"></span>
+</button>
     </div>
-    <div class="banner-image">
-        <img src="/pages/index/images/img1.jpg" alt="EduHub Student">
+
+    <div class="search-container">
+    <input type="text" id="searchInput" placeholder="..." onkeyup="filterCards()">
+</div>
+
+<div class="grid-container">
+
+        <div class="block" id="block1" alt="%?%" onclick="goToUrl('https://elevenlabs.io')">
+        <h3 id="block1_title"></h3>
+        <p id="block1_text"></p>
+        <img src="/pages/pages/interesting_web_pages/AI_tools/images/img1.png" class="block-icon">
     </div>
-</section>
 
-<p id="jsonPath" style="display: none;">/pages/index/json/translation.json</p>
+            <div class="block" id="block2" alt="%?%" onclick="goToUrl('https://magichour.ai')">
+        <h3 id="block2_title"></h3>
+        <p id="block2_text"></p>
+        <img src="/pages/pages/interesting_web_pages/AI_tools/images/img2.png" class="block-icon">
+    </div>
 
-<script src="/pages/index/js/script.js"></script>
+</div>
+
+<p id="jsonPath" style="display: none;">/pages/pages/interesting_web_pages/AI_tools/json/translation.json</p>
+
+<script src="/pages/pages/interesting_web_pages/AI_tools/js/script.js"></script>
 <script src="/pages/Global_settings/js/open_choose_language.js"></script>
 <script src="/pages/Global_settings/js/go_to_next_page.js"></script>
 <script src="/pages/Global_settings/js/change_language.js"></script>
-
-
 
 </body>
 </html>

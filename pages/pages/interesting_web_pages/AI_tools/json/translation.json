@@ -1,0 +1,54 @@
+{
+  "pl": {
+    "logo": "EduHub Owl",
+    "link1": "Poznaj nas",
+    "link2": "Szkoła Podstawowa",
+    "link3": "Szkoła Średnia",
+    "link4": "Kontakt",
+    "link5": "AI narzędzia",
+    "backButtonText": "Wróć",
+    "block1_title": "elevenlabs",
+    "block1_text": "Strona do generowania głosu i mowy.",
+    "block2_title": "magichour",
+    "block2_text": "Strona do generowania video/efektów z tekstu"
+  },
+  "en": {
+    "logo": "EduHub Owl",
+    "link1": "About us",
+    "link2": "Primary School",
+    "link3": "High School",
+    "link4": "Contact",
+    "link5": "AI tools",
+    "backButtonText": "Back",
+    "block1_title": "elevenlabs",
+    "block1_text": "Website for generating speech and voice.",
+    "block2_title": "magichour",
+    "block2_text": "Website for generating video/effects from text."
+  },
+  "ua": {
+    "logo": "EduHub Owl",
+    "link1": "Про нас",
+    "link2": "Початкова школа",
+    "link3": "Середня школа",
+    "link4": "Контакти",
+    "link5": "AI інструменти",
+    "backButtonText": "Назад",
+    "block1_title": "elevenlabs",
+    "block1_text": "Сайт для створення голосу та мовлення.",
+    "block2_title": "magichour",
+    "block2_text": "Сайт для створення відео/ефектів з тексту."
+  },
+  "ru": {
+    "logo": "EduHub Owl",
+    "link1": "О нас",
+    "link2": "Начальная школа",
+    "link3": "Средняя школа",
+    "link4": "Контакты",
+    "link5": "AI инструменты",
+    "backButtonText": "Назад",
+    "block1_title": "elevenlabs",
+    "block1_text": "Сайт для создания голоса и речи.",
+    "block2_title": "magichour",
+    "block2_text": "Сайт для генерации видео/эффектов из текста."
+  }
+}

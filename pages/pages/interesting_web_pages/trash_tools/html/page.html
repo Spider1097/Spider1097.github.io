@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>EduHub Owl</title>
+
+    <link rel="stylesheet" href="/pages/Global_settings/css/body.css">
+    <link rel="stylesheet" href="/pages/Global_settings/css/navbar.css">
+    <link rel="stylesheet" href="/pages/Global_settings/css/cards_menu.css">
+    <link rel="stylesheet" href="/pages/Global_settings/css/media_card_tools.css">
+    <link rel="stylesheet" href="/pages/pages/interesting_web_pages/trash_tools/css/style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo" id="logo"></div>
+        <div class="nav-links">
+            <a href="#" id="link1" onclick="goToUrl('/index.html')"></a>
+            <div class="nav-item"><a id="link2" onclick="goToUrl('')"></a></div>
+            <div class="nav-item"><a id="link3" onclick="goToUrl('/pages/menu/menu_AI_tools/html/page.html')"></a></div>
+            <div class="nav-item"><a id="link4" onclick="goToUrl('')"></a></div>
+            <div class="nav-item"><a id="link5" onclick="goToUrl('')"></a></div>
+
+            <div class="lang-menu">
+                <div class="lang-icon" onclick="toggleLang()">🌐</div>
+                <div id="langDropdown" class="dropdown-content">
+                    <div onclick="changeLanguage('pl')">Polski</div>
+                    <div onclick="changeLanguage('en')">English</div>
+                    <div onclick="changeLanguage('ua')">Українська</div>
+                    <div onclick="changeLanguage('ru')">Русский</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="back-container">
+<button class="back-btn" id="backButton" onclick="goToUrl('/pages/menu/menu_AI_tools/html/page.html')">
+    &larr; <span id="backButtonText"></span>
+</button>
+    </div>
+
+    <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Szukaj po nazwie..." onkeyup="filterCards()">
+</div>
+
+<div class="grid-container">
+    <div class="block" id="block1" alt="%?%" onclick="goToUrl('https://moewalls.com/#google_vignette')">
+        <h3 id="block1_title"></h3>
+        <p id="block1_text"></p>
+        <img src="/pages/pages/interesting_web_pages/trash_tools/images/img1.png" class="block-icon" loading="lazy">
+    </div>
+
+    <div class="block" id="block5" alt="%?%" onclick="goToUrl('https://cinegram.tv/home')">
+        <h3 id="block2_title"></h3>
+        <p id="block2_text"></p>
+        <img src="/pages/pages/interesting_web_pages/trash_tools/images/img2.png" class="block-icon" loading="lazy">
+    </div>
+
+        <div class="block" id="block6" alt="%?%" onclick="goToUrl('https://movies2watch.biz')">
+        <h3 id="block3_title"></h3>
+        <p id="block3_text"></p>
+        <img src="/pages/pages/interesting_web_pages/trash_tools/images/img3.png" class="block-icon" loading="lazy">
+    </div>
+
+        <div class="block" id="block11" alt="%?%" onclick="goToUrl('https://wifispc.com')">
+        <h3 id="block4_title"></h3>
+        <p id="block4_text"></p>
+        <img src="/pages/pages/interesting_web_pages/trash_tools/images/img4.png" class="block-icon" loading="lazy">
+    </div>
+
+
+</div>
+
+<p id="jsonPath" style="display: none;">/pages/pages/interesting_web_pages/trash_tools/json/translation.json</p>
+
+<script src="/pages/pages/interesting_web_pages/trash_tools/js/script.js"></script>
+<script src="/pages/Global_settings/js/open_choose_language.js"></script>
+<script src="/pages/Global_settings/js/go_to_next_page.js"></script>
+<script src="/pages/Global_settings/js/change_language.js"></script>
+
+</body>
+</html>
