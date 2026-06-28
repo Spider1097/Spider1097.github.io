@@ -6,6 +6,7 @@
     "link3": "AI narzędzia",
     "link4": "Oferty",
     "link5": "Kontakt",
+    "contactTitle": "Kontakt",
     "block1_title": "Edukacja",
     "block1_text": "Strony internetowe do nauki.",
     "block2_title": "Praca",
@@ -14,8 +15,12 @@
     "block3_text": "Strony internetowe do gier.",
     "block4_title": "AI narzędzia",
     "block4_text": "Strony internetowe z narzędziami AI.",
-    "block5_title": "Pozostałe",
-    "block5_text": "Strony internetowe do pozostałych celów."
+    "block5_title": "Filmy i pozastałe",
+    "block5_text": "Strony internetowe do ogłądania filmów i nie tylko",
+    "block6_title": "Pozostałe",
+    "block6_text": "Strony internetowe do pozostałych celów.",
+    "block7_title": "Zdrowie",
+    "block7_text": "Strony internetowe do aktywnego czasospędzania."
   },
   "en": {
     "logo": "EduHub Owl",
@@ -24,6 +29,7 @@
     "link3": "AI tools",
     "link4": "Offers",
     "link5": "Contact",
+    "contactTitle": "Contact",
     "block1_title": "Education",
     "block1_text": "Websites for learning.",
     "block2_title": "Work",
@@ -32,8 +38,12 @@
     "block3_text": "Websites for gaming.",
     "block4_title": "AI tools",
     "block4_text": "Websites with AI tools.",
-    "block5_title": "Other",
-    "block5_text": "Websites for other purposes."
+    "block5_title": "Movies and more",
+    "block5_text": "Websites for watching movies and more.",
+    "block6_title": "Other",
+    "block6_text": "Websites for other purposes.",
+    "block7_title": "Health",
+    "block7_text": "Websites for an active lifestyle."
   },
   "ua": {
     "logo": "EduHub Owl",
@@ -42,6 +52,7 @@
     "link3": "AI інструменти",
     "link4": "Пропозиції",
     "link5": "Контакти",
+    "contactTitle": "Контакт",
     "block1_title": "Освіта",
     "block1_text": "Вебсайти для навчання.",
     "block2_title": "Робота",
@@ -50,8 +61,12 @@
     "block3_text": "Вебсайти для ігор.",
     "block4_title": "AI інструменти",
     "block4_text": "Вебсайти з AI інструментами.",
-    "block5_title": "Інше",
-    "block5_text": "Вебсайти для інших цілей."
+    "block5_title": "Фільми та інше",
+    "block5_text": "Вебсайти для перегляду фільмів і не тільки.",
+    "block6_title": "Інше",
+    "block6_text": "Вебсайти для інших цілей.",
+    "block7_title": "Здоров'я",
+    "block7_text": "Вебсайти для активного дозвілля."
   },
   "ru": {
     "logo": "EduHub Owl",
@@ -60,6 +75,7 @@
     "link3": "AI инструменты",
     "link4": "Предложения",
     "link5": "Контакты",
+    "contactTitle": "Контакт",
     "block1_title": "Образование",
     "block1_text": "Веб-сайты для обучения.",
     "block2_title": "Работа",
@@ -68,7 +84,11 @@
     "block3_text": "Веб-сайты для игр.",
     "block4_title": "AI инструменты",
     "block4_text": "Веб-сайты с AI инструментами.",
-    "block5_title": "Прочее",
-    "block5_text": "Веб-сайты для других целей."
+    "block5_title": "Фильмы и другое",
+    "block5_text": "Вебсайты для просмотра фильмов и не только",
+    "block6_title": "Прочее",
+    "block6_text": "Веб-сайты для других целей.",
+    "block7_title": "Здоровье",
+    "block7_text": "Веб-сайты для активного времяпрепровождения."
   }
 }

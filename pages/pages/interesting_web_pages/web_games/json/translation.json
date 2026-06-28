@@ -14,7 +14,9 @@
     "block3_title": "ankergames",
     "block3_text": "Strona do pobierania gier na PC.",
     "block4_title": "Tesana",
-    "block4_text": "Strona tworzenia gier poprzez text"
+    "block4_text": "Strona tworzenia gier poprzez text",
+    "block5_title": "slowroads",
+    "block5_text": "Strona do jeżdżenia po świecie"
   },
   "en": {
     "logo": "EduHub Owl",
@@ -31,7 +33,9 @@
     "block3_title": "ankergames",
     "block3_text": "Website for downloading PC games.",
     "block4_title": "Tesana",
-    "block4_text": "Website for creating games via text."
+    "block4_text": "Website for creating games via text.",
+    "block5_title": "slowroads",
+    "block5_text": "Website for driving around the world"
   },
   "ua": {
     "logo": "EduHub Owl",
@@ -48,7 +52,9 @@
     "block3_title": "ankergames",
     "block3_text": "Сайт для завантаження ігор на ПК.",
     "block4_title": "Tesana",
-    "block4_text": "Сайт для створення ігор за допомогою тексту."
+    "block4_text": "Сайт для створення ігор за допомогою тексту.",
+    "block5_title": "slowroads",
+    "block5_text": "Сайт для поїздок світом"
   },
   "ru": {
     "logo": "EduHub Owl",
@@ -65,6 +71,8 @@
     "block3_title": "ankergames",
     "block3_text": "Сайт для скачивания игр на ПК.",
     "block4_title": "Tesana",
-    "block4_text": "Сайт для создания игр с помощью текста."
+    "block4_text": "Сайт для создания игр с помощью текста.",
+    "block5_title": "slowroads",
+    "block5_text": "Сайт для поездок по миру"
   }
 }

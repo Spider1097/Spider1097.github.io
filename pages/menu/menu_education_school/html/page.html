@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>EduHub Owl - Korepetycje</title>
+
+    <link rel="stylesheet" href="/pages/Global_settings/css/body.css">
+    <link rel="stylesheet" href="/pages/Global_settings/css/navbar.css">
+    <link rel="stylesheet" href="/pages/Global_settings/css/cards_menu.css">
+    <link rel="stylesheet" href="/pages/Global_settings/css/media_menu.css">
+    <link rel="stylesheet" href="/pages/menu/menu_education_school/css/style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo" id="logo"></div>
+        <div class="nav-links">
+            <a href="#" id="link1" onclick="goToUrl('/index.html')"></a>
+            <div class="nav-item"><a id="link2" onclick="goToUrl('/pages/menu/menu_education_school/html/page.html')"></a></div>
+            <div class="nav-item"><a id="link3" onclick="goToUrl('/pages/menu/menu_AI_tools/html/page.html')"></a></div>
+            <div class="nav-item"><a id="link4" onclick="goToUrl('')"></a></div>
+            <div class="nav-item"><a id="link5" onclick="goToUrl('')"></a></div>
+
+            <div class="lang-menu">
+                <div class="lang-icon" onclick="toggleLang()">🌐</div>
+                <div id="langDropdown" class="dropdown-content">
+                    <div onclick="changeLanguage('pl')">Polski</div>
+                    <div onclick="changeLanguage('en')">English</div>
+                    <div onclick="changeLanguage('ua')">Українська</div>
+                    <div onclick="changeLanguage('ru')">Русский</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="divider-gold"></div>
+
+    <div class="back-container">
+<button class="back-btn" id="backButton" onclick="goToUrl('/index.html')">
+    &larr; <span id="backButtonText"></span>
+</button>
+    </div>
+
+<h2 class="section-title" id="sectionTitle1"></h2>
+
+    <div class="grid-container">
+
+    <div class="block" id="block1" alt="%?%" onclick="goToUrl('')">
+        <div class="emoji">📚</div>
+        <h3 id="block1_title"></h3>
+        <p id="block1_text"></p>
+    </div>
+
+        <div class="block" id="block1" alt="%?%" onclick="goToUrl('')">
+        <div class="emoji">📚</div>
+        <h3 id="block2_title"></h3>
+        <p id="block2_text"></p>
+    </div>
+
+        <div class="block" id="block1" alt="%?%" onclick="goToUrl('')">
+        <div class="emoji">📚</div>
+        <h3 id="block3_title"></h3>
+        <p id="block3_text"></p>
+    </div>
+
+        <div class="block" id="block1" alt="%?%" onclick="goToUrl('')">
+        <div class="emoji">📚</div>
+        <h3 id="block4_title"></h3>
+        <p id="block4_text"></p>
+    </div>
+
+</div>
+
+<div class="divider-gold"></div>
+
+<h2 class="section-title" id="sectionTitle2"></h2>
+
+    <div class="grid-container">
+
+    <div class="block" id="block1" alt="%?%" onclick="goToUrl('/pages/pages/8klasa/Knowledge_base/menu/html/page.html')">
+        <div class="emoji">📚</div>
+        <h3 id="block5_title"></h3>
+        <p id="block5_text"></p>
+    </div>
+
+        <div class="block" id="block1" alt="%?%" onclick="goToUrl('')">
+        <div class="emoji">📚</div>
+        <h3 id="block6_title"></h3>
+        <p id="block6_text"></p>
+    </div>
+
+        <div class="block" id="block1" alt="%?%" onclick="goToUrl('')">
+        <div class="emoji">📚</div>
+        <h3 id="block7_title"></h3>
+        <p id="block7_text"></p>
+    </div>
+
+        <div class="block" id="block1" alt="%?%" onclick="goToUrl('')">
+        <div class="emoji">📚</div>
+        <h3 id="block8_title"></h3>
+        <p id="block8_text"></p>
+    </div>
+
+</div>
+
+<div class="divider-gold"></div>
+
+
+
+<p id="jsonPath" style="display: none;">/pages/menu/menu_education_school/json/translation.json</p>
+
+<script src="/pages/menu/menu_education_school/js/script.js"></script>
+<script src="/pages/Global_settings/js/open_choose_language.js"></script>
+<script src="/pages/Global_settings/js/go_to_next_page.js"></script>
+<script src="/pages/Global_settings/js/change_language.js"></script>
+
+</body>
+</html>

@@ -10,7 +10,11 @@
     "block1_title": "elevenlabs",
     "block1_text": "Strona do generowania głosu i mowy.",
     "block2_title": "magichour",
-    "block2_text": "Strona do generowania video/efektów z tekstu"
+    "block2_text": "Strona do generowania video/efektów z tekstu",
+    "block3_title": "evadegpt",
+    "block3_text": "Strona do przekształcania tekstu z GPT na styl ludzki.",
+    "block4_title": "Arena",
+    "block4_text": "Platforma udostępniająca szeroki wybór darmowych modeli AI"
   },
   "en": {
     "logo": "EduHub Owl",
@@ -23,7 +27,11 @@
     "block1_title": "elevenlabs",
     "block1_text": "Website for generating speech and voice.",
     "block2_title": "magichour",
-    "block2_text": "Website for generating video/effects from text."
+    "block2_text": "Website for generating video/effects from text.",
+    "block3_title": "evadegpt",
+    "block3_text": "Website for humanizing AI-generated text.",
+    "block4_title": "Arena",
+    "block4_text": "Platform featuring a wide selection of free AI models"
   },
   "ua": {
     "logo": "EduHub Owl",
@@ -36,7 +44,11 @@
     "block1_title": "elevenlabs",
     "block1_text": "Сайт для створення голосу та мовлення.",
     "block2_title": "magichour",
-    "block2_text": "Сайт для створення відео/ефектів з тексту."
+    "block2_text": "Сайт для створення відео/ефектів з тексту.",
+    "block3_title": "magichour",
+    "block3_text": "Сайт для переписування тексту з GPT на людський.",
+    "block4_title": "Arena",
+    "block4_text": "Платформа з широким вибором безкоштовних моделей штучного інтелекту"
   },
   "ru": {
     "logo": "EduHub Owl",
@@ -49,6 +61,10 @@
     "block1_title": "elevenlabs",
     "block1_text": "Сайт для создания голоса и речи.",
     "block2_title": "magichour",
-    "block2_text": "Сайт для генерации видео/эффектов из текста."
+    "block2_text": "Сайт для генерации видео/эффектов из текста.",
+    "block3_title": "magichour",
+    "block3_text": "Сайт для преобразования текста из GPT в человеческий стиль.",
+    "block4_title": "Arena",
+    "block4_text": "Платформа с широким выбором бесплатных моделей искусственного интеллекта"
   }
 }

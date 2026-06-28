@@ -10,7 +10,11 @@
     "block1_title": "123APPS",
     "block1_text": "Strona do edycji wideo, audio oraz plików.",
     "block2_title": "MusicGPT",
-    "block2_text": "Strona do generowania muzyki poprzez tekst"
+    "block2_text": "Strona do generowania muzyki poprzez tekst",
+    "block3_title": "SimplePDF",
+    "block3_text": "Strona do edycji plików PDF",
+    "block4_title": "Tinywow",
+    "block4_text": "Strona ze zbiorem pozostałych narzędzi."
   },
   "en": {
     "logo": "EduHub Owl",
@@ -23,7 +27,11 @@
     "block1_title": "123APPS",
     "block1_text": "A website for editing video, audio, and files.",
     "block2_title": "MusicGPT",
-    "block2_text": "A website for generating music from text."
+    "block2_text": "A website for generating music from text.",
+    "block3_title": "SimplePDF",
+    "block3_text": "Website for editing PDF files",
+    "block4_title": "Tinywow",
+    "block4_text": "Website with a collection of other tools."
   },
   "ua": {
     "logo": "EduHub Owl",
@@ -36,7 +44,11 @@
     "block1_title": "123APPS",
     "block1_text": "Сайт для редагування відео, аудіо та файлів.",
     "block2_title": "MusicGPT",
-    "block2_text": "Сайт для генерації музики за допомогою тексту."
+    "block2_text": "Сайт для генерації музики за допомогою тексту.",
+    "block3_title": "SimplePDF",
+    "block3_text": "Сайт для редагування PDF-файлів",
+    "block4_title": "Tinywow",
+    "block4_text": "Сайт зі збіркою інших інструментів."
   },
   "ru": {
     "logo": "EduHub Owl",
@@ -49,6 +61,10 @@
     "block1_title": "123APPS",
     "block1_text": "Сайт для редактирования видео, аудио и файлов.",
     "block2_title": "MusicGPT",
-    "block2_text": "Сайт для генерации музыки с помощью текста."
+    "block2_text": "Сайт для генерации музыки с помощью текста.",
+    "block3_title": "SimplePDF",
+    "block3_text": "Сайт для редактирования PDF-файлов",
+    "block4_title": "Tinywow",
+    "block4_text": "Сайт с набором других инструментов."
   }
 }

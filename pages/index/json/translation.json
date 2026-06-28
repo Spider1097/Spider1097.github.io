@@ -5,7 +5,12 @@
     "link2": "Nauka",
     "link3": "AI narzędzia",
     "link4": "Oferty",
-    "link5": "Kontakt"
+    "link5": "Kontakt",
+    "heroTitle": "Twoja wiedza, nasz sukces",
+    "heroText": "Odkryj profesjonalne wsparcie w nauce na każdym etapie edukacji",
+    "btn1": "Sprawdź ofertę",
+    "btn2": "Kontakt",
+    "contactTitle": "Kontakt"
   },
   "en": {
     "logo": "EduHub Owl",
@@ -13,7 +18,12 @@
     "link2": "Learning",
     "link3": "AI tools",
     "link4": "Offers",
-    "link5": "Contact"
+    "link5": "Contact",
+    "heroTitle": "Your knowledge, our success",
+    "heroText": "Discover professional learning support at every stage of education",
+    "btn1": "Check offers",
+    "btn2": "Contact",
+    "contactTitle": "Contact"
   },
   "ua": {
     "logo": "EduHub Owl",
@@ -21,7 +31,12 @@
     "link2": "Навчання",
     "link3": "AI інструменти",
     "link4": "Пропозиції",
-    "link5": "Контакти"
+    "link5": "Контакти",
+    "heroTitle": "Ваші знання — наш успіх",
+    "heroText": "Відкрийте для себе професійну підтримку у навчанні на кожному етапі освіти",
+    "btn1": "Переглянути пропозиції",
+    "btn2": "Контакт",
+    "contactTitle": "Контакт"
   },
   "ru": {
     "logo": "EduHub Owl",
@@ -29,6 +44,11 @@
     "link2": "Обучение",
     "link3": "AI инструменты",
     "link4": "Предложения",
-    "link5": "Контакты"
+    "link5": "Контакты",
+    "heroTitle": "Ваши знания — наш успех",
+    "heroText": "Откройте для себя профессиональную поддержку в обучении на каждом этапе образования",
+    "btn1": "Посмотреть предложения",
+    "btn2": "Контакты",
+    "contactTitle": "Контакт"
   }
 }

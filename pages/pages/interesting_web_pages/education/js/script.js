@@ -17,7 +17,11 @@ const elementMap = {
     block5_title: "block5_title",
     block5_text:  "block5_text",
     block6_title: "block6_title",
-    block6_text:  "block6_text"
+    block6_text:  "block6_text",
+    block7_title: "block7_title",
+    block7_text:  "block7_text",
+    block8_title: "block8_title",
+    block8_text:  "block8_text"
 };
 
 function filterCards() {

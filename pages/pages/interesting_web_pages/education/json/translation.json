@@ -18,7 +18,11 @@
     "block5_title": "napkin",
     "block5_text": "Strona do tworzenia pięknych wykresów i diagramów.",
     "block6_title": "Blueprint",
-    "block6_text": "Strona do otrzymania gotowego projektu poprzez text"
+    "block6_text": "Strona do otrzymania gotowego projektu poprzez text",
+    "block7_title": "Zperiod",
+    "block7_text": "Strona do nauki chemii",
+    "block8_title": "Vocal Remover",
+    "block8_text": "Strona do profesjonalnej edycji dźwięku"
   },
   "en": {
     "logo": "EduHub Owl",
@@ -39,7 +43,11 @@
     "block5_title": "napkin",
     "block5_text": "Website for creating beautiful charts and diagrams.",
     "block6_title": "Blueprint",
-    "block6_text": "Website for getting a ready-made project via text."
+    "block6_text": "Website for getting a ready-made project via text.",
+    "block7_title": "Zperiod",
+    "block7_text": "Website for learning chemistry",
+    "block8_title": "Vocal Remover",
+    "block8_text": "Website for professional audio editing"
   },
   "ua": {
     "logo": "EduHub Owl",
@@ -60,7 +68,11 @@
     "block5_title": "napkin",
     "block5_text": "Сайт для створення гарних діаграм та графіків.",
     "block6_title": "Blueprint",
-    "block6_text": "Сайт для отримання готового проєкту через текст."
+    "block6_text": "Сайт для отримання готового проєкту через текст.",
+    "block7_title": "Zperiod",
+    "block7_text": "Сайт для вивчення хімії",
+    "block8_title": "Vocal Remover",
+    "block8_text": "Сайт для професійного редагування аудіо"
   },
   "ru": {
     "logo": "EduHub Owl",
@@ -81,6 +93,10 @@
     "block5_title": "napkin",
     "block5_text": "Сайт для создания красивых диаграмм и графиков.",
     "block6_title": "Blueprint",
-    "block6_text": "Сайт для получения готового проекта через текст."
+    "block6_text": "Сайт для получения готового проекта через текст.",
+    "block7_title": "Zperiod",
+    "block7_text": "Сайт для изучения химии",
+    "block8_title": "Vocal Remover",
+    "block8_text": "Сайт для профессионального редактирования аудио"
   }
 }

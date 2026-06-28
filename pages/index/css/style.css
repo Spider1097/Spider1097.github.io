@@ -1,4 +1,4 @@
-.main-banner {
+.main_content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -75,12 +75,3 @@
     color: #1a1a1a;
 }
 
-/* Klasa dla linii, która jest częścią designu */
-/* Stylizacja ozdobnej linii */
-.divider-gold {
-    width: 100%;
-    height: 2px;
-    margin: 0 auto;
-    background-color: #d4af37; 
-    border: none;
-}

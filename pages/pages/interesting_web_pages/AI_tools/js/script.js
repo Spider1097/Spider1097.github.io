@@ -9,7 +9,11 @@ const elementMap = {
     block1_title: "block1_title",
     block1_text:  "block1_text",
     block2_title: "block2_title",
-    block2_text:  "block2_text"
+    block2_text:  "block2_text",
+    block3_title: "block3_title",
+    block3_text:  "block3_text",
+    block3_title: "block4_title",
+    block3_text:  "block4_text"
 };
 
 function filterCards() {

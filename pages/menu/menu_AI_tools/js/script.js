@@ -5,6 +5,7 @@ const elementMap = {
     link3: "link3",
     link4: "link4",
     link5: "link5",
+    contactTitle: "contactTitle",
     block1_title: "block1_title",
     block1_text:  "block1_text",
     block2_title: "block2_title",
@@ -14,5 +15,9 @@ const elementMap = {
     block4_title: "block4_title",
     block4_text:  "block4_text",
     block5_title: "block5_title",
-    block5_text:  "block5_text"
+    block5_text:  "block5_text",
+    block6_title: "block6_title",
+    block6_text:  "block6_text",
+    block7_title: "block7_title",
+    block7_text:  "block7_text"
 };

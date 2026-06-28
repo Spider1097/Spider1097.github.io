@@ -1,0 +1,38 @@
+{
+  "pl": {
+    "logo": "EduHub Owl",
+    "link1": "Poznaj nas",
+    "link2": "Nauka",
+    "link3": "AI narzędzia",
+    "link4": "Oferty",
+    "link5": "Kontakt",
+    "backButtonText": "Wróć"
+  },
+  "en": {
+    "logo": "EduHub Owl",
+    "link1": "About us",
+    "link2": "Learning",
+    "link3": "AI tools",
+    "link4": "Offers",
+    "link5": "Contact",
+    "backButtonText": "Back"
+  },
+  "ua": {
+    "logo": "EduHub Owl",
+    "link1": "Про нас",
+    "link2": "Навчання",
+    "link3": "AI інструменти",
+    "link4": "Пропозиції",
+    "link5": "Контакти",
+    "backButtonText": "Назад"
+  },
+  "ru": {
+    "logo": "EduHub Owl",
+    "link1": "О нас",
+    "link2": "Обучение",
+    "link3": "AI инструменты",
+    "link4": "Предложения",
+    "link5": "Контакты",
+    "backButtonText": "Назад"
+  }
+}
