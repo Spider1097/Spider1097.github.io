@@ -1,0 +1,58 @@
+{
+    "pl": {
+        "id_title_1": "8 Klasa",
+        "id_title_2": "Klasa 3 technikum",
+        "card1-title": "Teoria",
+        "card1-desc": "Wytłumaczenie zasad i reguł.",
+        "card2-title": "Zadania praktyczne",
+        "card2-desc": "Wykonywanie zadań praktycznych.",
+        "card3-title": "Zadania sprawdzające",
+        "card3-desc": "Wykonywanie zadań samodzielnie.",
+        "card4-title": "Wzory",
+        "card4-desc": "Zbiór wszystkich wzorów.",
+        "card5-title": "Egzaminy",
+        "card5-desc": "Wykonywanie/rozwiązywanie egzaminów."
+    },
+    "en": {
+        "id_title_1": "8th Grade",
+        "id_title_2": "3rd Grade Technical School",
+        "card1-title": "Theory",
+        "card1-desc": "Explanation of rules and principles.",
+        "card2-title": "Practical tasks",
+        "card2-desc": "Performing practical tasks.",
+        "card3-title": "Assessment tasks",
+        "card3-desc": "Completing tasks independently.",
+        "card4-title": "Formulas",
+        "card4-desc": "Collection of all formulas.",
+        "card5-title": "Exams",
+        "card5-desc": "Taking/solving exams."
+    },
+    "ua": {
+        "id_title_1": "8 Клас",
+        "id_title_2": "3 клас технікуму",
+        "card1-title": "Теорія",
+        "card1-desc": "Пояснення правил і принципів.",
+        "card2-title": "Практичні завдання",
+        "card2-desc": "Виконання практичних завдань.",
+        "card3-title": "Перевірочні завдання",
+        "card3-desc": "Самостійне виконання завдань.",
+        "card4-title": "Формули",
+        "card4-desc": "Збірник усіх формул.",
+        "card5-title": "Іспити",
+        "card5-desc": "Виконання/вирішення іспитів."
+    },
+    "ru": {
+        "id_title_1": "8 Класс",
+        "id_title_2": "3 класс техникума",
+        "card1-title": "Теория",
+        "card1-desc": "Объяснение правил и принципов.",
+        "card2-title": "Практические задачи",
+        "card2-desc": "Выполнение практических задач.",
+        "card3-title": "Проверочные задания",
+        "card3-desc": "Самостоятельное выполнение заданий.",
+        "card4-title": "Формулы",
+        "card4-desc": "Сборник всех формул.",
+        "card5-title": "Экзамены",
+        "card5-desc": "Выполнение/решение экзаменов."
+    }
+}

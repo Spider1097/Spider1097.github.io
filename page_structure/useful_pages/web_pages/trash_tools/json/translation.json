@@ -1,0 +1,26 @@
+{
+    "pl": {
+        "card-desc-1": "Strona do oglądania filmów i seriali po angielsku.",
+        "card-desc-2": "Strona do oglądania filmów i seriali po angielsku.",
+        "card-desc-3": "Strona do oglądania klasycznych bajek.",
+        "card-desc-4": "Strona z obszerną bazą serwisów streamingowych."
+    },
+    "en": {
+        "card-desc-1": "Website for watching movies and series in English.",
+        "card-desc-2": "Website for watching movies and series in English.",
+        "card-desc-3": "Website for watching classic cartoons.",
+        "card-desc-4": "Website featuring a comprehensive directory of streaming platforms."
+    },
+    "ua": {
+        "card-desc-1": "Сайт для перегляду фільмів та серіалів англійською.",
+        "card-desc-2": "Сайт для перегляду фільмів та серіалів англійською.",
+        "card-desc-3": "Сайт для перегляду класичних мультфільмів.",
+        "card-desc-4": "Сайт із великою добіркою стрімінгових сервісів"
+    },
+    "ru": {
+        "card-desc-1": "Сайт для просмотра фильмов и сериалов на английском.",
+        "card-desc-2": "Сайт для просмотра фильмов и сериалов на английском.",
+        "card-desc-3": "Сайт для просмотра классических мультфильмов.",
+        "card-desc-4": "Сайт с обширной подборкой стриминговых сервисов"
+    }
+}

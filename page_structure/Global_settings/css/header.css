@@ -1,0 +1,165 @@
+/* ################# HEADER ######################## */
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1a1a1a;
+    height: 80px;
+    position: relative;
+}
+
+/* ################# LEFT SIDE ######################## */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.logo-container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.company_name {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+/* ################# RIGHT SIDE ######################## */
+.header-right {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    justify-self: end;
+    gap: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #d4af37;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: 0.5s;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.language-selector {
+    cursor: pointer;
+    font-size: 2em;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.language-selector:hover {
+    color: #ffffff;
+    transform: scale(1.2) rotate(30deg);
+}
+
+.mobile-menu-btn {
+    
+    display: none;
+}
+
+.header-back-button {
+    background-color: transparent;
+    color: #d4af37;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header-back-button:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+/* ################# SHOW DISPLAY LANGUAGE ######################## */
+.dropdown-content {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-content.show {
+    display: flex !important;
+}
+
+.dropdown-content-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-color: #1a1a1a;
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+    padding: 30px 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 800px;
+}
+
+.lang-option {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #262626;
+    color: #fcfaf7;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid #d4af37;
+}
+
+.lang-option:hover {
+    background-color: #333333;
+    color: #d4af37;
+    transform: scale(1.05);
+}
+
+.flag-img {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+}
+

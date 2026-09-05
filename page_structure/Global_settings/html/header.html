@@ -1,0 +1,53 @@
+<!-- #################### HEADER ######################### -->
+<div class="header-left">
+    <div class="logo-container">
+        <img src="/images/logo/logo2.png" alt="EduHub Owl Logo" class="logo_img">
+    </div>
+    <span class="company_name" id="company_name_id">EduHub Owl</span>
+</div>
+
+<div class="header-right">
+    <nav class="nav-links">
+        <a href="/index.html" id="link1"></a>
+        <a href="/page_structure/learning_resources_pages/menu/html/page.html" id="link2"></a>
+        <a href="/page_structure/useful_pages/menu/html/page.html" id="link3"></a>
+        <a href="/index.html" id="link4"></a>
+        <a href="/index.html" id="link5"></a>
+    </nav>
+    <button class="mobile-menu-btn" id="mobileMenuBtn">
+        ☰
+    </button>
+    <button type="button" class="header-back-button" id="backButton_header" onclick="goBack()">
+    </button>
+    <div class="lang-menu" id="langMenu">
+        <div class="language-selector" onclick="toggleLangModal()">
+            🌐
+        </div>
+    </div>
+</div>
+<!-- #################### HEADER ######################### -->
+<!-- #################### SHOW DISPLAY LANGUAGE ######################### -->
+<div class="dropdown-content" id="dropdownContent">
+    <div class="dropdown-content-inner">
+        <div class="lang-option" onclick="selectLanguageAndClose('pl')">
+            <img src="/images/flags/pl_flag.png" alt="Polski" class="flag-img">
+            <span>Polski</span>
+        </div>
+        <div class="lang-option" onclick="selectLanguageAndClose('en')">
+            <img src="/images/flags/en_flag.jpeg" alt="English" class="flag-img">
+            <span>English</span>
+        </div>
+        <div class="lang-option" onclick="selectLanguageAndClose('ru')">
+            <img src="/images/flags/ru_flag.jpg" alt="Русский" class="flag-img">
+            <span>Русский</span>
+        </div>
+        <div class="lang-option" onclick="selectLanguageAndClose('ua')">
+            <img src="/images/flags/uk_flag.png" alt="Українська" class="flag-img">
+            <span>Українська</span>
+        </div>
+        <div class="lang-option" onclick="closeLangModal()">
+            <span>Zamknij</span>
+        </div>
+    </div>
+</div>
+<!-- #################### SHOW DISPLAY LANGUAGE ######################### -->

@@ -1,0 +1,26 @@
+{
+    "pl": {
+        "card-desc-1": "Strona do generowania głosu i mowy.",
+        "card-desc-2": "Strona do generowania video/efektów z tekstu",
+        "card-desc-3": "Strona do przekształcania tekstu z GPT na styl ludzki.",
+        "card-desc-4": "Platforma udostępniająca szeroki wybór darmowych modeli AI"
+    },
+    "en": {
+        "card-desc-1": "A website for generating voice and speech.",
+        "card-desc-2": "A website for generating video/effects from text.",
+        "card-desc-3": "A website for transforming GPT text into human style.",
+        "card-desc-4": "A platform providing a wide selection of free AI models."
+    },
+    "ua": {
+        "card-desc-1": "Веб-сайт для генерації голосу та мови.",
+        "card-desc-2": "Веб-сайт для генерації відео/ефектів з тексту.",
+        "card-desc-3": "Веб-сайт для перетворення тексту GPT у людський стиль.",
+        "card-desc-4": "Платформа, що надає широкий вибір безкоштовних моделей штучного інтелекту."
+    },
+    "ru": {
+        "card-desc-1": "Веб-сайт для генерации голоса и речи.",
+        "card-desc-2": "Веб-сайт для генерации видео/эффектов из текста.",
+        "card-desc-3": "Веб-сайт для преобразования текста GPT в человеческий стиль.",
+        "card-desc-4": "Платформа, предоставляющая широкий выбор бесплатных моделей искусственного интеллекта."
+    }
+}

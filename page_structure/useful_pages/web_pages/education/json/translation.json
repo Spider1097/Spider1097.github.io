@@ -1,0 +1,42 @@
+{
+    "pl": {
+        "card-desc-1": "Strona do nauki programowania i elektroniki.",
+        "card-desc-2": "Strona do nauki anatomii człowieka.",
+        "card-desc-3": "Strona do ćwiczeń programistycznych.",
+        "card-desc-4": "Opis czwartego klocka.",
+        "card-desc-5": "Strona do tworzenia pięknych wykresów i diagramów.",
+        "card-desc-6": "Strona do otrzymania gotowego projektu poprzez text",
+        "card-desc-7": "Strona do nauki chemii",
+        "card-desc-8": "Strona do profesjonalnej edycji dźwięku"
+    },
+    "en": {
+        "card-desc-1": "A website for learning programming and electronics.",
+        "card-desc-2": "A website for learning human anatomy.",
+        "card-desc-3": "A website for programming exercises.",
+        "card-desc-4": "Description of the fourth block.",
+        "card-desc-5": "A website for creating beautiful charts and diagrams.",
+        "card-desc-6": "A website for getting a ready-made project through text.",
+        "card-desc-7": "A website for learning chemistry.",
+        "card-desc-8": "A website for professional audio editing."
+    },
+    "ua": {
+        "card-desc-1": "Веб-сайт для вивчення програмування та електроніки.",
+        "card-desc-2": "Веб-сайт для вивчення анатомії людини.",
+        "card-desc-3": "Веб-сайт для програмування вправ.",
+        "card-desc-4": "Опис четвертого блоку.",
+        "card-desc-5": "Веб-сайт для створення красивих діаграм та графіків.",
+        "card-desc-6": "Веб-сайт для отримання готового проекту через текст.",
+        "card-desc-7": "Веб-сайт для вивчення хімії.",
+        "card-desc-8": "Веб-сайт для професійного редагування аудіо."
+    },
+    "ru": {
+        "card-desc-1": "Веб-сайт для изучения программирования и электроники.",
+        "card-desc-2": "Веб-сайт для изучения анатомии человека.",
+        "card-desc-3": "Веб-сайт для упражнений по программированию.",
+        "card-desc-4": "Описание четвертого блока.",
+        "card-desc-5": "Веб-сайт для создания красивых диаграмм и графиков.",
+        "card-desc-6": "Веб-сайт для получения готового проекта через текст.",
+        "card-desc-7": "Веб-сайт для изучения химии.",
+        "card-desc-8": "Веб-сайт для профессионального редактирования аудио."
+    }
+}

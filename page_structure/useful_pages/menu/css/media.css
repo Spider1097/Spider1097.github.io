@@ -1,0 +1,27 @@
+/* ################# MEDIA QUERIES ######################## */
+@media screen and (min-width: 750px) and (max-width: 1000px) {
+    .main_container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main_container {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .main_container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px 50px;
+    }
+
+    .card-item {
+
+        padding: 15px;
+    }
+}
+/* ################# MEDIA QUERIES ######################## */
