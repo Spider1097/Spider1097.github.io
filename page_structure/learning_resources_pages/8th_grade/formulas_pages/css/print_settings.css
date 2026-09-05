@@ -1,0 +1,109 @@
+@media print {
+    @page {
+        size: A4 portrait;
+
+    @bottom-center {
+        content: "EduHub Owl © ";
+        font-size: 10px;
+        color: #666666;
+        font-family: sans-serif;
+        }
+    }
+
+    body {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .pdf-print-container, 
+    .header {
+        display: none !important;
+    }
+
+    .print-header-logo {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #000000;
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    .print-header-logo img {
+        height: 60px !important;
+        width: auto !important;
+    }
+
+    .print-header-logo span {
+        font-size: 22px;
+        font-weight: bold;
+        color: #000000;
+        font-family: sans-serif;
+    }
+
+    .main_wrapper {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
+        width: 100% !important;
+    }
+
+    .formula-card {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        border: 2px solid #000000 !important;
+        border-radius: 12px !important;
+        box-shadow: none !important;
+        padding: 15px !important;
+        height: auto !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .formula-name, 
+    .subcategory-title {
+        color: #000000 !important;
+        border-bottom-color: #000000 !important;
+        page-break-after: avoid !important;
+        break-after: avoid !important;
+    }
+
+    .formula-content {
+        color: #000000 !important;
+    }
+
+    .formula-desc {
+        color: #333333 !important;
+    }
+
+    .formula-example {
+        background-color: transparent !important;
+        color: #000000 !important;
+        border-left: 3px solid #000000 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .katex, 
+    .katex *,
+    .katex .base,
+    .katestrut {
+        color: #000000 !important;
+    }
+
+    svg rect {
+        stroke: #000000 !important;
+    }
+
+    svg text {
+        fill: #000000 !important;
+    }
+}
