@@ -1,16 +1,41 @@
+@media screen and (max-width: 1200px) {
+    .main_container {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        margin: 3rem 0 2rem 0;
+    }
+
+    .edu-intro-card {
+        padding: 2rem;
+        font-size: 1.15rem;
+    }
+
+    .edu-ex-main {
+        font-size: 1.05rem;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .main_container {
         padding: 1.5rem 1rem;
     }
 
     .section-title {
-        font-size: 2rem;
-        margin: 2.5rem 0 1.5rem 0;
+        font-size: 1.2rem;
+        margin: 2rem 0 1.5rem 0;
+        padding-bottom: 0.8rem;
     }
 
     .edu-intro-card {
         padding: 1.5rem;
         font-size: 1.05rem;
+    }
+
+    .edu-ex-main {
+        font-size: 1rem;
     }
 
     .edu-grid-container[style*="--grid-cols: 4"] {
@@ -27,54 +52,21 @@
         display: none;
     }
 
-    .edu-grid-container[style*="--grid-cols: 4"] .edu-content-cell {
+    .edu-grid-container[style*="--grid-cols: 4"] {
         background-color: #1a1a1a;
         border: 0.18rem solid #d4af37;
-        border-radius: 1rem;
+        border-radius: 1.2rem;
         padding: 1.5rem;
-        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
-        margin-bottom: 0.5rem;
+        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+        margin-bottom: 0;
         display: flex;
         flex-direction: column;
         gap: 0.8rem;
-        font-size: 1.1rem;
+        font-size: 1.05rem;
+        width: 100%;
+        box-sizing: border-box;
         border-right: 0.18rem solid #d4af37;
-    }
-
-    .edu-grid-container[style*="--grid-cols: 4"] .cell-noun:before {
-        content: "📌 Rzeczownik:";
-        font-weight: bold;
-        color: #d4af37;
-        font-size: 0.95rem;
-        display: block;
-        margin-bottom: 0.3rem;
-    }
-
-    .edu-grid-container[style*="--grid-cols: 4"] .cell-aan:before {
-        content: "➕ Artykuł a/an:";
-        font-weight: bold;
-        color: #d4af37;
-        font-size: 0.95rem;
-        display: block;
-        margin-bottom: 0.3rem;
-    }
-
-    .edu-grid-container[style*="--grid-cols: 4"] .cell-the:before {
-        content: "➕ Artykuł the:";
-        font-weight: bold;
-        color: #d4af37;
-        font-size: 0.95rem;
-        display: block;
-        margin-bottom: 0.3rem;
-    }
-
-    .edu-grid-container[style*="--grid-cols: 4"] .cell-example:before {
-        content: "💡 Przykład:";
-        font-weight: bold;
-        color: #d4af37;
-        font-size: 0.95rem;
-        display: block;
-        margin-bottom: 0.3rem;
+        border-bottom: 0.18rem solid #d4af37;
     }
 
     .edu-grid-container[style*="--grid-cols: 4"] .edu-center-cell {
@@ -84,46 +76,21 @@
     }
 }
 
-@media screen and (min-width: 801px) and (max-width: 1000px) {
-    .main_container {
-        padding: 2rem 1.5rem;
-    }
-
+@media screen and (max-width: 600px) {
     .section-title {
-        font-size: 2.3rem;
-        margin: 3rem 0 1.8rem 0;
+        font-size: 1rem;
     }
 
     .edu-intro-card {
-        padding: 2rem;
-        font-size: 1.15rem;
+        padding: 1.2rem;
+        font-size: 1rem;
     }
 
-    .edu-header-cell, .edu-content-cell {
-        padding: 1.5rem 1rem;
-        font-size: 1.05rem;
+    .edu-content-cell {
+        font-size: 0.95rem;
     }
 
-    .edu-main-title {
-        font-size: 1.3rem;
-    }
-}
-
-@media screen and (min-width: 1001px) and (max-width: 1200px) {
-    .main_container {
-        padding: 2.5rem 1.8rem;
-    }
-
-    .section-title {
-        font-size: 2.5rem;
-    }
-
-    .edu-intro-card {
-        font-size: 1.2rem;
-    }
-
-    .edu-header-cell, .edu-content-cell {
-        padding: 1.6rem 1.2rem;
-        font-size: 1.1rem;
+    .edu-ex-main {
+        font-size: 0.95rem;
     }
 }

@@ -62,7 +62,7 @@
         display: flex;
         flex-direction: column;
         gap: 0.8rem;
-        font-size: 1.1rem;
+        font-size: 0.5rem;
         border-right: 0.18rem solid #d4af37;
     }
 
@@ -126,7 +126,7 @@
 
     .edu-header-cell, .edu-content-cell {
         padding: 1.5rem 1rem;
-        font-size: 1.05rem;
+        font-size: 0.5rem;
     }
 
     .edu-main-title {
@@ -149,6 +149,6 @@
 
     .edu-header-cell, .edu-content-cell {
         padding: 1.6rem 1.2rem;
-        font-size: 1.1rem;
+        font-size: 0.5rem;
     }
 }
