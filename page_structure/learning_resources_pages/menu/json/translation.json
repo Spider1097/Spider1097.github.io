@@ -1,6 +1,6 @@
 {
     "pl": {
-        "id_title_1": "8 Klasa matematyka",
+        "id_title_1": "8 Klasa",
         "id_title_2": "Klasa 3 technikum",
         "card1-title": "Matematyka",
         "card1-desc": "Nauka matematyki.",
@@ -10,7 +10,7 @@
         "card3-desc": "Nauka fizyki."
     },
     "en": {
-            "id_title_1": "8th Grade Mathematics",
+            "id_title_1": "8th Grade",
             "id_title_2": "3rd Grade Technical School",
             "card1-title": "Mathematics",
             "card1-desc": "Learning mathematics.",
@@ -20,7 +20,7 @@
             "card3-desc": "Learning physics."
         },
         "ua": {
-            "id_title_1": "8 Клас математики",
+            "id_title_1": "8 Клас",
             "id_title_2": "3 клас технікуму",
             "card1-title": "Математика",
             "card1-desc": "Вивчення математики.",
@@ -30,7 +30,7 @@
             "card3-desc": "Вивчення фізики."
         },
         "ru": {
-            "id_title_1": "8 Класс математики",
+            "id_title_1": "8 Класс",
             "id_title_2": "3 Класс техникума",
             "card1-title": "Математика",
             "card1-desc": "Изучение математики.",
