@@ -1,0 +1,26 @@
+{
+    "pl": {
+        "card-desc-1": "Strona do edycji wideo, audio oraz plików.",
+        "card-desc-2": "Strona do generowania muzyki poprzez tekst",
+        "card-desc-3": "Strona do edycji plików PDF",
+        "card-desc-4": "Strona ze zbiorem pozostałych narzędzi."
+    },
+    "en": {
+        "card-desc-1": "Website for editing video, audio and files.",
+        "card-desc-2": "Website for generating music through text",
+        "card-desc-3": "Website for editing PDF files",
+        "card-desc-4": "Website with a collection of other tools."
+    },
+    "ua": {
+        "card-desc-1": "Веб-сайт для редагування відео, аудіо та файлів.",
+        "card-desc-2": "Веб-сайт для генерації музики через текст",
+        "card-desc-3": "Веб-сайт для редагування PDF-файлів",
+        "card-desc-4": "Веб-сайт із колекцією інших інструментів."
+    },
+    "ru": {
+        "card-desc-1": "Веб-сайт для редактирования видео, аудио и файлов.",
+        "card-desc-2": "Веб-сайт для генерации музыки через текст",
+        "card-desc-3": "Веб-сайт для редактирования PDF-файлов",
+        "card-desc-4": "Веб-сайт с коллекцией других инструментов."
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "pl": {
+        "card1-title": "Edukacja", "card1-desc": "Strony internetowe do nauki.",
+        "card2-title": "Praca", "card2-desc": "Strony internetowe do pracy.",
+        "card3-title": "Rozrywka", "card3-desc": "Strony internetowe do rozrywki.",
+        "card4-title": "AI narzędzia", "card4-desc": "Strony internetowe z narzędziami AI.",
+        "card5-title": "Filmy i seriale", "card5-desc": "Strony internetowe do oglądania filmów i seriali.",
+        "card6-title": "Zdrowie", "card6-desc": "Strony internetowe do aktywności fizycznej i zdrowia.",
+        "card7-title": "Symulatory", "card7-desc": "Strony internetowe z symulatorami.",
+        "card8-title": "Narzędzia", "card8-desc": "Strony internetowe z przydatnymi narzędziami.",
+        "card9-title": "Muzyka", "card9-desc": "Strony internetowe do muzyki.",
+        "card10-title": "Pozostałe", "card10-desc": "Strony internetowe do pozostałych celów."
+    },
+    "en": {
+        "card1-title": "Education", "card1-desc": "Websites for learning.",
+        "card2-title": "Work", "card2-desc": "Websites for work.",
+        "card3-title": "Entertainment", "card3-desc": "Websites for entertainment.",
+        "card4-title": "AI Tools", "card4-desc": "Websites with AI tools.",
+        "card5-title": "Movies and Series", "card5-desc": "Websites for watching movies and series.",
+        "card6-title": "Health", "card6-desc": "Websites for physical activity and health.",
+        "card7-title": "Simulators", "card7-desc": "Websites with simulators.",
+        "card8-title": "Tools", "card8-desc": "Websites with useful tools.",
+        "card9-title": "Music", "card9-desc": "Websites for music.",
+        "card10-title": "Other", "card10-desc": "Websites for other purposes."
+    },
+    "ua": {
+        "card1-title": "Освіта", "card1-desc": "Веб-сайти для навчання.",
+        "card2-title": "Робота", "card2-desc": "Веб-сайти для роботи.",
+        "card3-title": "Розваги", "card3-desc": "Веб-сайти для розваг.",
+        "card4-title": "АI інструменти", "card4-desc": "Веб-сайти з інструментами штучного інтелекту.",
+        "card5-title": "Фільми та серіали", "card5-desc": "Веб-сайти для перегляду фільмів та серіалів.",
+        "card6-title": "Здоров'я", "card6-desc": "Веб-сайти для фізичної активності та здоров'я.",
+        "card7-title": "Симулятори", "card7-desc": "Веб-сайти з симуляторами.",
+        "card8-title": "Інструменти", "card8-desc": "Веб-сайти з корисними інструментами.",
+        "card9-title": "Музика", "card9-desc": "Веб-сайти для музики.",
+        "card10-title": "Інше", "card10-desc": "Веб-сайти для інших цілей."
+    },
+    "ru": {
+        "card1-title": "Образование", "card1-desc": "Веб-сайты для обучения.",
+        "card2-title": "Работа", "card2-desc": "Веб-сайты для работы.",
+        "card3-title": "Развлечения", "card3-desc": "Веб-сайты для развлечений.",
+        "card4-title": "ИИ инструменты", "card4-desc": "Веб-сайты с инструментами искусственного интеллекта.",
+        "card5-title": "Фильмы и сериалы", "card5-desc": "Веб-сайты для просмотра фильмов и сериалов.",
+        "card6-title": "Здоровье", "card6-desc": "Веб-сайты для физической активности и здоровья.",
+        "card7-title": "Симуляторы", "card7-desc": "Веб-сайты с симуляторами.",
+        "card8-title": "Инструменты", "card8-desc": "Веб-сайты с полезными инструментами.",
+        "card9-title": "Музыка", "card9-desc": "Веб-сайты для музыки.",
+        "card10-title": "Другое", "card10-desc": "Веб-сайты для других целей."
+    }
+}

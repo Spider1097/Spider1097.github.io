@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduHub Owl - home page</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦉</text></svg>">
+    <!-- #################### STYLES ######################### -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <link rel="stylesheet" href="/page_structure/Global_settings/css/body.css">
+    <link rel="stylesheet" href="/page_structure/Global_settings/css/header.css">
+    <link rel="stylesheet" href="/page_structure/Global_settings/css/header_media.css">
+    <link rel="stylesheet" href="/page_structure/learning_resources_pages/3th_grade_technical_school/formulas_pages/css/style.css">
+    <link rel="stylesheet" href="/page_structure/learning_resources_pages/3th_grade_technical_school/formulas_pages/css/print_settings.css">
+    <link rel="stylesheet" href="/page_structure/learning_resources_pages/3th_grade_technical_school/formulas_pages/css/media.css">
+    <!-- #################### STYLES ######################### -->
+</head>
+<body>
+<!-- #################### HEADER ####################-->
+<div class="header">
+</div>
+<!-- #################### HEADER ####################-->
+
+<!-- #################### PDF PRINT BUTTON ######################### -->
+<div class="pdf-print-container">
+    <button class="pdf-print-btn" onclick="downloadPDF()">
+        📥 Pobierz jako PDF
+    </button>
+</div>
+<!-- #################### PDF PRINT BUTTON ######################### -->
+
+<!-- #################### PDF CONTENT WRAPPER ######################### -->
+<div id="pdf-content">
+    <div class="print-header-logo">
+        <img src="/images/logo/logo2.png" alt="EduHub Owl Logo">
+        <span>EduHub Owl</span>
+    </div>
+
+    <!-- #################### MAIN CONTAINER ######################### -->
+    <div class="main_container">
+    <!-- ############################################################## -->
+        <div class="category-group">    
+
+        <h3 class="subcategory-title" id="id_title_1"></h3>
+        <div class="main_wrapper">
+
+        <div class="formula-card">
+            <div class="formula-info">
+                <h4 class="formula-name" id="formula_name_circle_1"></h4>
+                <div class="formula-content">
+                    <div class="example-math"><span>$$l = 2\pi r$$</span></div>
+                </div>
+                <div class="formula-svg-container" style="text-align: center; margin: 10px 0;">
+                    <svg width="90" height="90" viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="32" fill="none" stroke="#f0a500" stroke-width="2"/>
+                        <circle cx="50" cy="50" r="2" fill="#f0a500"/>
+                        <line x1="50" y1="50" x2="72" y2="28" stroke="#f0a500" stroke-width="2"/>
+                        <text x="64" y="36" fill="#ffffff" font-size="11" text-anchor="middle">r</text>
+                    </svg>
+                </div>
+                <p class="formula-desc" id="formula_desc_circle_1"></p>
+            </div>
+            <div class="formula-example example-multiline">
+                <div class="example-math"><span>$$l = 2 \cdot \pi \cdot 3 = 6\pi\text{ cm}$$</span></div>
+                <span id="formula_example_circle_1"></span>
+            </div>
+        </div>
+
+        <div class="formula-card">
+            <div class="formula-info">
+                <h4 class="formula-name" id="formula_name_circle_2"></h4>
+                <div class="formula-content">
+                    <div class="example-math"><span>$$P = \pi r^2$$</span></div>
+                </div>
+                <div class="formula-svg-container" style="text-align: center; margin: 10px 0;">
+                    <svg width="90" height="90" viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="32" fill="rgba(240, 165, 0, 0.15)" stroke="#f0a500" stroke-width="2"/>
+                        <circle cx="50" cy="50" r="2" fill="#f0a500"/>
+                        <line x1="50" y1="50" x2="72" y2="28" stroke="#f0a500" stroke-width="2"/>
+                        <text x="64" y="36" fill="#ffffff" font-size="11" text-anchor="middle">r</text>
+                    </svg>
+                </div>
+                <p class="formula-desc" id="formula_desc_circle_2"></p>
+            </div>
+            <div class="formula-example example-multiline">
+                <div class="example-math"><span>$$P = \pi \cdot 3^2 = 9\pi\text{ cm}^2$$</span></div>
+                <span id="formula_example_circle_2"></span>
+            </div>
+        </div>
+
+        <div class="formula-card">
+            <div class="formula-info">
+                <h4 class="formula-name" id="formula_name_arc_1"></h4>
+                <div class="formula-content">
+                    <div class="example-math"><span>$$l = \frac{\alpha}{360^\circ} \cdot 2\pi r$$</span></div>
+                </div>
+                <div class="formula-svg-container" style="text-align: center; margin: 10px 0;">
+                    <svg width="90" height="90" viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="32" fill="none" stroke="#f0a500" stroke-width="2"/>
+                        <path d="M50 50 L82 50 A32 32 0 0 1 37 78 Z" fill="rgba(240, 165, 0, 0.15)" stroke="#f0a500" stroke-width="2"/>
+                        <circle cx="50" cy="50" r="2" fill="#f0a500"/>
+                        <text x="58" y="45" fill="#ffffff" font-size="11" text-anchor="middle">α</text>
+                        <text x="65" y="68" fill="#ffffff" font-size="11" text-anchor="middle">r</text>
+                    </svg>
+                </div>
+                <p class="formula-desc" id="formula_desc_arc_1"></p>
+            </div>
+            <div class="formula-example example-multiline">
+                <div class="example-math"><span>$$l = \frac{90^\circ}{360^\circ} \cdot 2 \cdot \pi \cdot 4 = 2\pi\text{ cm}$$</span></div>
+                <span id="formula_example_arc_1"></span>
+            </div>
+        </div>
+
+        <div class="formula-card">
+            <div class="formula-info">
+                <h4 class="formula-name" id="formula_name_sector_1"></h4>
+                <div class="formula-content">
+                    <div class="example-math"><span>$$P = \frac{\alpha}{360^\circ} \cdot \pi r^2$$</span></div>
+                </div>
+                <div class="formula-svg-container" style="text-align: center; margin: 10px 0;">
+                    <svg width="90" height="90" viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="32" fill="none" stroke="#f0a500" stroke-width="2"/>
+                        <path d="M50 50 L82 50 A32 32 0 0 1 37 78 Z" fill="rgba(240, 165, 0, 0.15)" stroke="#f0a500" stroke-width="2"/>
+                        <circle cx="50" cy="50" r="2" fill="#f0a500"/>
+                        <text x="58" y="45" fill="#ffffff" font-size="11" text-anchor="middle">α</text>
+                        <text x="65" y="68" fill="#ffffff" font-size="11" text-anchor="middle">r</text>
+                    </svg>
+                </div>
+                <p class="formula-desc" id="formula_desc_sector_1"></p>
+            </div>
+            <div class="formula-example example-multiline">
+                <div class="example-math"><span>$$P = \frac{90^\circ}{360^\circ} \cdot \pi \cdot 4^2 = 4\pi\text{ cm}^2$$</span></div>
+                <span id="formula_example_sector_1"></span>
+            </div>
+        </div>
+                
+            </div>
+            <!-- ############################################################## -->
+
+        <h3 class="subcategory-title" id="id_title_2"></h3>
+        <div class="main_wrapper">
+
+                
+            </div>
+
+            <!-- ############################################################## -->
+        </div>
+
+        
+
+        
+    </div>
+</div>
+<!-- #################### MAIN CONTAINER ######################### -->
+<!-- #################### DOWN CONTAINER ######################### -->
+<div class="down_container">
+</div>
+<!-- #################### DOWN CONTAINER ######################### -->
+<!-- #################### PATH TO TRANSLATION ######################### -->
+<p id="translations-path-header" style="display: none;">/page_structure/Global_settings/json/header_translation.json</p>
+<p id="translations-path-page" style="display: none;">/page_structure/learning_resources_pages/3th_grade_technical_school/formulas_pages/json/translation.json</p>
+<!-- #################### PATH TO TRANSLATION ######################### -->
+<!-- #################### SCRIPTS ######################### -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {
+    delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false}
+    ]
+});"></script>
+<script src="/page_structure/Global_settings/js/go_to_next_page.js"></script>
+<script src="/page_structure/Global_settings/js/insert_header.js"></script>
+<script src="/page_structure/Global_settings/js/insert_hide_menu.js"></script>
+<script src="/page_structure/Global_settings/js/change_language.js"></script>
+<script src="/page_structure/Global_settings/js/actions_buttons.js"></script>
+<script src="/page_structure/learning_resources_pages/3th_grade_technical_school/formulas_pages/js/language.js"></script>
+<script src="/page_structure/learning_resources_pages/3th_grade_technical_school/formulas_pages/js/script.js"></script>
+<!-- #################### SCRIPTS ######################### -->
+</body>
+</html>

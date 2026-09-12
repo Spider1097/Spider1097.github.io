@@ -1,0 +1,42 @@
+{
+    "pl": {
+        "id_title_1": "8 Klasa matematyka",
+        "id_title_2": "Klasa 3 technikum",
+        "card1-title": "Matematyka",
+        "card1-desc": "Nauka matematyki.",
+        "card2-title": "Angielski",
+        "card2-desc": "Nauka języka angielskiego.",
+        "card3-title": "Fizyka",
+        "card3-desc": "Nauka fizyki."
+    },
+    "en": {
+            "id_title_1": "8th Grade Mathematics",
+            "id_title_2": "3rd Grade Technical School",
+            "card1-title": "Mathematics",
+            "card1-desc": "Learning mathematics.",
+            "card2-title": "English",
+            "card2-desc": "Learning English.",
+            "card3-title": "Physics",
+            "card3-desc": "Learning physics."
+        },
+        "ua": {
+            "id_title_1": "8 Клас математики",
+            "id_title_2": "3 клас технікуму",
+            "card1-title": "Математика",
+            "card1-desc": "Вивчення математики.",
+            "card2-title": "Англійська мова",
+            "card2-desc": "Вивчення англійської мови.",
+            "card3-title": "Фізика",
+            "card3-desc": "Вивчення фізики."
+        },
+        "ru": {
+            "id_title_1": "8 Класс математики",
+            "id_title_2": "3 Класс техникума",
+            "card1-title": "Математика",
+            "card1-desc": "Изучение математики.",
+            "card2-title": "Английский язык",
+            "card2-desc": "Изучение английского языка.",
+            "card3-title": "Физика",
+            "card3-desc": "Изучение физики."
+        }
+}

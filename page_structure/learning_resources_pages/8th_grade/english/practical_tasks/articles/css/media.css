@@ -1,0 +1,154 @@
+@media screen and (max-width: 800px) {
+    .main_container {
+        padding: 1.5rem 1rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        margin: 2rem 0 1rem 0;
+    }
+
+    .edu-task-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+        margin: 2.5rem 0 1rem 0;
+    }
+
+    .edu-task-header .section-title {
+        margin: 0 !important;
+        font-size: 1.5rem;
+    }
+
+    .edu-intro-card {
+        padding: 1.5rem;
+        font-size: 1.05rem;
+    }
+
+    .edu-example-box {
+        padding: 1rem;
+        font-size: 0.95rem;
+        line-height: 1.8 !important;
+    }
+
+    .edu-action-btn {
+        width: 100%;
+        text-align: center;
+        padding: 0.9rem;
+        font-size: 1rem;
+    }
+
+    .edu-grid-container[style*="--grid-cols: 4"] {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none !important;
+        border: none;
+        background: transparent;
+        box-shadow: none;
+        gap: 1.5rem;
+    }
+
+    .edu-grid-container[style*="--grid-cols: 4"] > .edu-header-cell {
+        display: none;
+    }
+
+    .edu-grid-container[style*="--grid-cols: 4"] .edu-content-cell {
+        background-color: #1a1a1a;
+        border: 0.18rem solid #d4af37;
+        border-radius: 1rem;
+        padding: 1.5rem;
+        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
+        margin-bottom: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        font-size: 0.5rem;
+        border-right: 0.18rem solid #d4af37;
+    }
+
+    .edu-grid-container[style*="--grid-cols: 4"] .cell-noun:before {
+        content: "📌 Rzeczownik:";
+        font-weight: bold;
+        color: #d4af37;
+        font-size: 0.95rem;
+        display: block;
+        margin-bottom: 0.3rem;
+    }
+
+    .edu-grid-container[style*="--grid-cols: 4"] .cell-aan:before {
+        content: "➕ Artykuł a/an:";
+        font-weight: bold;
+        color: #d4af37;
+        font-size: 0.95rem;
+        display: block;
+        margin-bottom: 0.3rem;
+    }
+
+    .edu-grid-container[style*="--grid-cols: 4"] .cell-the:before {
+        content: "➕ Artykuł the:";
+        font-weight: bold;
+        color: #d4af37;
+        font-size: 0.95rem;
+        display: block;
+        margin-bottom: 0.3rem;
+    }
+
+    .edu-grid-container[style*="--grid-cols: 4"] .cell-example:before {
+        content: "💡 Przykład:";
+        font-weight: bold;
+        color: #d4af37;
+        font-size: 0.95rem;
+        display: block;
+        margin-bottom: 0.3rem;
+    }
+
+    .edu-grid-container[style*="--grid-cols: 4"] .edu-center-cell {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+    .main_container {
+        padding: 2rem 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        margin: 3rem 0 1.8rem 0;
+    }
+
+    .edu-intro-card {
+        padding: 2rem;
+        font-size: 1.15rem;
+    }
+
+    .edu-header-cell, .edu-content-cell {
+        padding: 1.5rem 1rem;
+        font-size: 0.5rem;
+    }
+
+    .edu-main-title {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .main_container {
+        padding: 2.5rem 1.8rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .edu-intro-card {
+        font-size: 1.2rem;
+    }
+
+    .edu-header-cell, .edu-content-cell {
+        padding: 1.6rem 1.2rem;
+        font-size: 0.5rem;
+    }
+}
