@@ -2,6 +2,7 @@
     "pl": {
         "id_title_formulas": "Wzory",
         "id_title_1": "Porównywanie liczb",
+        "download_button": "📥 Pobierz jako PDF",
         "formula_name_1": "Mniejszy niż",
         "formula_desc_1": "Oznacza, że wartość po lewej stronie jest mniejsza od wartości po prawej.",
         "formula_example_1": " (liczba 5 leży na osi liczbowej bardziej w lewo niż 8).",
@@ -174,6 +175,7 @@
     "en": {
         "id_title_formulas": "Formulas",
         "id_title_1": "Comparing numbers",
+        "download_button": "📥 Download as PDF",
         "formula_name_1": "Less than",
         "formula_desc_1": "Means that the value on the left is less than the value on the right.",
         "formula_example_1": " (the number 5 lies further to the left on the number line than 8).",
@@ -340,6 +342,7 @@
     "ua": {
         "id_title_formulas": "Формули",
         "id_title_1": "Порівняння чисел",
+        "download_button": "📥 Завантажити у форматі PDF",
         "formula_name_1": "Менше ніж",
         "formula_desc_1": "Означає, що значення зліва менше за значення справа.",
         "formula_example_1": " (число 5 лежить на числовій прямій лівіше за 8).",
@@ -506,6 +509,7 @@
     "ru": {
         "id_title_formulas": "Формулы",
         "id_title_1": "Сравнение чисел",
+        "download_button": "📥 Скачать в формате PDF",
         "formula_name_1": "Меньше чем",
         "formula_desc_1": "Означает, что значение слева меньше значения справа.",
         "formula_example_1": " (число 5 лежит на числовой прямой левее 8).",

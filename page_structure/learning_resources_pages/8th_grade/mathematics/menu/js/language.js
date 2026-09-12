@@ -1,11 +1,11 @@
 if (!window.__eduHubIndexContentTranslationMap) {
     window.__eduHubIndexContentTranslationMap = {
         "id_title_1": "id_title_1",
-        "id_title_2": "id_title_2",
         "card1-title": "card1-title", "card1-desc": "card1-desc",
         "card2-title": "card2-title", "card2-desc": "card2-desc",
         "card3-title": "card3-title", "card3-desc": "card3-desc",
-        "card10-title": "card10-title", "card10-desc": "card10-desc",
+        "card4-title": "card4-title", "card4-desc": "card4-desc",
+        "card5-title": "card5-title", "card5-desc": "card5-desc",
     };
 }   
 var contentTranslationMap = window.__eduHubIndexContentTranslationMap;

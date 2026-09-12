@@ -2,6 +2,7 @@ if (!window.__eduHubIndexContentTranslationMap) {
     window.__eduHubIndexContentTranslationMap = {
         "id_title_formulas": "id_title_formulas",
         "id_title_1": "id_title_1",
+        "download_button": "download_button",
         "formula_name_1": "formula_name_1",
         "formula_desc_1": "formula_desc_1",
         "formula_example_1": "formula_example_1",
